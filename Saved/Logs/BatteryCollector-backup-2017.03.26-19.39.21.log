@@ -1,0 +1,1116 @@
+﻿Log file open, 03/26/17 03:10:11
+LogInit:Display: Running engine for game: BatteryCollector
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(170212131) SRandInit(170212131).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.095049
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.26-10.10.13:346][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.26-10.10.13:346][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.26-10.10.13:406][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.03.26-10.10.13:406][  0]LogInit: User: Liam
+[2017.03.26-10.10.13:406][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.26-10.10.13:406][  0]LogInit: High frequency timer resolution =3.906390 MHz
+[2017.03.26-10.10.13:406][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.26-10.10.13:406][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.26-10.10.13:406][  0]LogMemory: Process Physical Memory: 262.39 MB used, 262.39 MB peak
+[2017.03.26-10.10.13:406][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2017.03.26-10.10.13:406][  0]LogMemory: Physical Memory: 5022.18 MB used,  3116.82 MB free, 8139.00 MB total
+[2017.03.26-10.10.13:406][  0]LogMemory: Virtual Memory: 645.13 MB used,  3116.82 MB free, 134217728.00 MB total
+[2017.03.26-10.10.13:919][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.26-10.10.18:845][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.26-10.10.19:345][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.03.26-10.10.19:345][  0]LogD3D11RHI:       4063/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.26-10.10.19:387][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.26-10.10.19:387][  0]LogD3D11RHI:       0/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.26-10.10.19:387][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.26-10.10.19:395][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.26-10.10.19:395][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.26-10.10.19:395][  0]LogWindows: EnumDisplayDevices:
+[2017.03.26-10.10.19:395][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.03.26-10.10.19:395][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.26-10.10.19:395][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.26-10.10.19:396][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.26-10.10.19:396][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.26-10.10.19:396][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.03.26-10.10.19:396][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.26-10.10.19:396][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.26-10.10.19:396][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.26-10.10.19:828][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.26-10.10.19:828][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.26-10.10.19:937][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.26-10.10.19:986][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Intermediate/Shaders/WorkingDirectory/9580/).
+[2017.03.26-10.10.19:986][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/FF0B9B334DF2A98BFEEC29985E08A86A/'.
+[2017.03.26-10.10.19:986][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.26-10.10.23:216][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.26-10.10.23:303][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.26-10.10.23:390][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.26-10.10.23:477][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.26-10.10.23:590][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.26-10.10.23:678][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.26-10.10.23:777][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.26-10.10.23:864][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.26-10.10.23:937][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.26-10.10.24:035][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.26-10.10.24:133][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.26-10.10.24:219][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.26-10.10.24:304][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.26-10.10.24:389][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.26-10.10.24:476][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.26-10.10.24:647][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.26-10.10.24:647][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.26-10.10.24:719][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.26-10.10.24:910][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.26-10.10.24:966][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.26-10.10.25:083][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.26-10.10.25:181][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.26-10.10.25:268][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.26-10.10.25:366][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.26-10.10.25:366][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.26-10.10.26:355][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.26-10.10.26:783][  0]LogDerivedDataCache: Loaded boot cache 0.42s 51MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.26-10.10.26:783][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.26-10.10.26:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.26-10.10.26:783][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.26-10.10.26:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.26-10.10.26:783][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.26-10.10.26:815][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.26-10.10.26:827][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.26-10.10.26:841][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.26-10.10.26:842][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.26-10.10.26:842][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.26-10.10.30:886][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.26-10.10.30:890][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.26-10.10.31:212][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.26-10.10.31:303][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.26-10.10.31:404][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.26-10.10.31:404][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.26-10.10.31:404][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.26-10.10.32:333][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: batterycollector, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2727626990
+[2017.03.26-10.10.32:412][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.03.26-10.10.32:686][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.239525 seconds
+[2017.03.26-10.10.32:693][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.26-10.10.32:693][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.03.26-10.10.32:693][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.26-10.10.32:857][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.26-10.10.55:627][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.26-10.10.55:699][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.26-10.10.56:806][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.26-10.10.57:487][  0]SourceControl: Info Source control is disabled
+[2017.03.26-10.10.57:488][  0]SourceControl: Info Source control is disabled
+[2017.03.26-10.10.57:583][  0]SourceControl: Info Source control is disabled
+[2017.03.26-10.10.57:673][  0]SourceControl: Info Source control is disabled
+[2017.03.26-10.11.00:227][  0]LogEngine: Initializing Engine...
+[2017.03.26-10.11.00:227][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.26-10.11.00:564][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.26-10.11.00:604][  0]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.11.00:640][  0]LogInit: FAudioDevice initialized.
+[2017.03.26-10.11.00:700][  0]LogDerivedDataCache: Saved boot cache 0.06s 51MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.26-10.11.00:719][  0]LogInit: Texture streaming: Enabled
+[2017.03.26-10.11.00:918][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.26-10.11.00:918][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={F76F41C5-4DD2-DC9E-82A4-AEA600BFB5DF}
+[2017.03.26-10.11.01:087][  0]LogInit: Transaction tracking system initialized
+[2017.03.26-10.11.01:714][  0]BlueprintLog: New page: Editor Load
+[2017.03.26-10.11.03:563][  0]LocalizationService: Info Localization service is disabled
+[2017.03.26-10.11.04:855][  0]LogConsoleResponse:Display: 
+[2017.03.26-10.11.06:067][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.26-10.11.06:067][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.26-10.11.06:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/' took 0.02s
+[2017.03.26-10.11.08:289][  0]SourceControl: Info Source control is disabled
+[2017.03.26-10.11.08:289][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.26-10.11.08:289][  0]LightingResults: New page: Lighting Build
+[2017.03.26-10.11.08:355][  0]MapCheck: New page: Map Check
+[2017.03.26-10.11.08:355][  0]LightingResults: New page: Lighting Build
+[2017.03.26-10.11.12:271][  0]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.11.12:316][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.26-10.11.12:316][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.26-10.11.12:395][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.101ms to complete.
+[2017.03.26-10.11.12:395][  0]LogFileHelpers: Loading map 'CollectionLevel' took 4.106
+[2017.03.26-10.11.12:790][  0]LogCollectionManager: Loaded 0 collections in 0.002408 seconds
+[2017.03.26-10.11.12:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Collections/' took 0.01s
+[2017.03.26-10.11.12:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Developers/Liam/Collections/' took 0.01s
+[2017.03.26-10.11.12:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Collections/' took 0.01s
+[2017.03.26-10.11.12:896][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.26-10.11.12:912][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2250 classes and 455 folders.
+[2017.03.26-10.11.12:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.26-10.11.12:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.26-10.11.13:022][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.03.26-10.11.14:604][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.03.26-10.11.14:696][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.03.26-10.11.14:777][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.26-10.11.14:786][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.26-10.11.14:891][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.03.26-10.11.14:891][  0]LogLoad: (Engine Initialization) Total time: 66.88 seconds
+[2017.03.26-10.11.14:891][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.53 seconds
+[2017.03.26-10.11.14:891][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.26-10.11.14:891][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.26-10.11.15:226][  0]LogOcInput: OculusInput pre-init called
+[2017.03.26-10.11.15:249][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.03.26-10.11.15:251][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.26-10.11.15:256][  0]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.26-10.11.15:278][  0]LogSlate: Took 0.014991 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.26-10.11.15:560][  0]LogSlate: Took 0.010401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.26-10.11.15:606][  0]LogRenderer: Reallocating scene render targets to support 1164x580 NumSamples 1 (Frame:2).
+[2017.03.26-10.11.15:801][  2]LogAssetRegistry: Asset discovery search completed in 43.4105 seconds
+[2017.03.26-10.11.15:801][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.03.26-10.11.15:801][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.03.26-10.11.15:985][  7]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.26-10.11.32:089][649]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.26-10.11.33:780][806]Recompiling BatteryCollector...
+[2017.03.26-10.11.33:780][806]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 5088 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.26-10.11.33:782][806]Warning: Starting HotReload took  0.0s.
+[2017.03.26-10.11.48:461][344]CompilerResultsLog: New page: Compilation - Mar 25, 2017, 8:11:48 PM
+[2017.03.26-10.11.48:461][344]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.26-10.11.48:461][344]CompilerResultsLog: Info Target is up to date
+[2017.03.26-10.11.48:461][344]CompilerResultsLog: Info Total build time: 14.35 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.03.26-10.11.48:461][344]LogMainFrame: MainFrame: Module compiling took 14.688 seconds
+[2017.03.26-10.11.48:518][344]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2252 classes and 459 folders.
+[2017.03.26-10.11.48:518][344]Display: HotReload took 14.8s.
+[2017.03.26-10.11.50:846][587]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.11.50:864][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.11.50:864][587]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:11:50 PM)
+[2017.03.26-10.11.50:864][587]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.11.50:868][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003986s)
+[2017.03.26-10.11.50:869][587]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.11.50:869][587]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2017.03.26-10.11.50:869][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005389s)
+[2017.03.26-10.11.50:908][587]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.11.50:929][587]LogInit: FAudioDevice initialized.
+[2017.03.26-10.11.51:026][587]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.11.51:029][587]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.11.51
+[2017.03.26-10.11.51:030][587]LogWorld: Bringing up level for play took: 0.001973
+[2017.03.26-10.11.51:116][587]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2017.03.26-10.11.51:120][587]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.186
+[2017.03.26-10.12.07:011][483]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.12.07:012][483]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.07:012][483]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-10.12.07:012][483]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.07:012][483]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-10.12.07:012][483]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.08:256][632]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-10.12.08:256][632]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.08:256][632]LogClass: You have collected BP_Battery_C_7
+[2017.03.26-10.12.08:257][632]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.10:393][888]LogClass: You have collected BP_Battery_C_6
+[2017.03.26-10.12.10:393][888]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.13:535][265]LogClass: You have collected BP_Battery_C_8
+[2017.03.26-10.12.13:535][265]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.13:535][265]LogClass: You have collected BP_Battery_C_5
+[2017.03.26-10.12.13:535][265]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.12.13:535][265]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-10.12.13:535][265]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.18.48:438][289]Recompiling BatteryCollector...
+[2017.03.26-10.18.48:438][289]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 4010 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.26-10.18.48:440][289]Warning: Starting HotReload took  0.0s.
+[2017.03.26-10.18.53:164][529]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.26-10.18.53:787][529]LogSlate: Took 0.000732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.26-10.18.53:985][529]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: New page: Compilation - Mar 25, 2017, 8:19:06 PM
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 6.0516635 seconds
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.03.26-10.19.06:335][123]CompilerResultsLog: Info BatteryCollectorGameMode.cpp
+[2017.03.26-10.19.06:336][123]CompilerResultsLog:Error: Error C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Source\BatteryCollector\BatteryCollectorGameMode.cpp(143) : error C2660: 'APlayerController::SetCameraMode': function does not take 5 arguments
+[2017.03.26-10.19.06:336][123]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Binaries\Win64\UE4Editor-BatteryCollector-4010.dll
+[2017.03.26-10.19.06:336][123]CompilerResultsLog: Info Total build time: 17.14 seconds (Local executor: 0.00 seconds)
+[2017.03.26-10.19.06:336][123]LogMainFrame: MainFrame: Module compiling took 17.903 seconds
+[2017.03.26-10.19.06:336][123]Warning: HotReload failed, recompile failed
+[2017.03.26-10.20.10:093][619]Recompiling BatteryCollector...
+[2017.03.26-10.20.10:094][619]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 9168 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.26-10.20.10:096][619]Warning: Starting HotReload took  0.0s.
+[2017.03.26-10.20.20:193][793]BlueprintLog: New page: Compile BP_GameMode
+[2017.03.26-10.20.21:017][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2017.03.26-10.20.21:312][858]LogSavePackage: Save=17.16ms
+[2017.03.26-10.20.21:312][858]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BP_GameMode2A7E8F34444F2E9B12760D8982A03206.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_GameMode.uasset'
+[2017.03.26-10.20.21:319][858]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_GameMode.uasset
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: New page: Compilation - Mar 25, 2017, 8:20:24 PM
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 4.9837138 seconds
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info BatteryCollectorGameMode.cpp
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info [2/3] Link UE4Editor-BatteryCollector-9168.dll
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info [3/3] Link UE4Editor-BatteryCollector-9168.lib
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9168.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9168.exp
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9168.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9168.suppressed.exp
+[2017.03.26-10.20.24:732][209]CompilerResultsLog: Info Total build time: 14.14 seconds (Local executor: 5.99 seconds)
+[2017.03.26-10.20.24:732][209]LogMainFrame: MainFrame: Module compiling took 14.645 seconds
+[2017.03.26-10.20.24:855][209]LogClass: EBatteryPlayState HotReload.
+[2017.03.26-10.20.24:858][209]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2017.03.26-10.20.25:145][209]LogHotReload: Re-instancing SpawnVol after hot-reload.
+[2017.03.26-10.20.25:389][209]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0026 seconds. Added 5 classes and 2 folders.
+[2017.03.26-10.20.25:392][209]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2017.03.26-10.20.25:793][209]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2252 classes and 459 folders.
+[2017.03.26-10.20.25:793][209]Display: HotReload took 15.7s.
+[2017.03.26-10.20.29:178][540]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.20.29:207][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.20.29:207][540]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:20:29 PM)
+[2017.03.26-10.20.29:207][540]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.20.29:211][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003813s)
+[2017.03.26-10.20.29:212][540]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.20.29:212][540]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2017.03.26-10.20.29:212][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005600s)
+[2017.03.26-10.20.29:291][540]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.20.29:313][540]LogInit: FAudioDevice initialized.
+[2017.03.26-10.20.29:345][540]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.20.29:348][540]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.20.29
+[2017.03.26-10.20.29:349][540]LogWorld: Bringing up level for play took: 0.001966
+[2017.03.26-10.20.29:351][540]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.417
+[2017.03.26-10.20.36:275][334]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-10.20.36:276][334]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.20.36:276][334]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.20.36:276][334]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.20.37:972][537]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-10.20.37:972][537]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.22.21:504][213]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.03.26-10.22.42:497][214]LogRenderer: Reallocating scene render targets to support 1164x916 NumSamples 1 (Frame:14026).
+[2017.03.26-10.22.44:469][298]LogSavePackage: Save=24.76ms
+[2017.03.26-10.22.44:469][298]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/SK_Mannequin_Physics5054A2854B42A175BB6E6985F308E4E1.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset'
+[2017.03.26-10.22.44:473][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Mannequin/Character/Mesh/SK_Mannequin_Physics.uasset
+[2017.03.26-10.22.50:977][788]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.22.51:006][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.22.51:006][788]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:22:51 PM)
+[2017.03.26-10.22.51:006][788]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.22.51:010][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003879s)
+[2017.03.26-10.22.51:011][788]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.22.51:011][788]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2017.03.26-10.22.51:011][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005431s)
+[2017.03.26-10.22.51:066][788]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.22.51:096][788]LogInit: FAudioDevice initialized.
+[2017.03.26-10.22.51:133][788]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.22.51:137][788]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.22.51
+[2017.03.26-10.22.51:138][788]LogWorld: Bringing up level for play took: 0.002214
+[2017.03.26-10.22.51:146][788]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.211
+[2017.03.26-10.23.25:117][198]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.03.26-10.23.25:657][198]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.26-10.23.26:121][198]LogSlate: Took 0.019604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.26-10.23.35:606][670]LogSavePackage: Save=70.67ms
+[2017.03.26-10.23.35:606][670]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/SK_Mannequin8E411A8C4E55BD376F2F4C93C18A2B5E.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset'
+[2017.03.26-10.23.35:611][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2017.03.26-10.23.39:261][947]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.23.39:287][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.23.39:288][947]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:23:39 PM)
+[2017.03.26-10.23.39:288][947]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.23.39:292][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004059s)
+[2017.03.26-10.23.39:293][947]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.23.39:293][947]LogPlayLevel: PIE: World Init took: (0.001588s)
+[2017.03.26-10.23.39:294][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005951s)
+[2017.03.26-10.23.39:344][947]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.23.39:374][947]LogInit: FAudioDevice initialized.
+[2017.03.26-10.23.39:409][947]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.23.39:412][947]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.23.39
+[2017.03.26-10.23.39:413][947]LogWorld: Bringing up level for play took: 0.002194
+[2017.03.26-10.23.39:416][947]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.482
+[2017.03.26-10.24.08:661][441]LogSlate: Took 0.016114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.26-10.24.55:947][112]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.03.26-10.24.56:913][163]LogSavePackage: Save=58.19ms
+[2017.03.26-10.24.56:913][163]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/ThirdPersonCharacter997723F441E7BDE72CFA2E8597C5091C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.03.26-10.24.56:919][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2017.03.26-10.24.59:073][369]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.24.59:097][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.24.59:097][369]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:24:59 PM)
+[2017.03.26-10.24.59:097][369]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.24.59:101][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003846s)
+[2017.03.26-10.24.59:102][369]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.24.59:102][369]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2017.03.26-10.24.59:102][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005254s)
+[2017.03.26-10.24.59:152][369]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.24.59:176][369]LogInit: FAudioDevice initialized.
+[2017.03.26-10.24.59:211][369]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.24.59:215][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.24.59
+[2017.03.26-10.24.59:216][369]LogWorld: Bringing up level for play took: 0.002290
+[2017.03.26-10.24.59:219][369]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.284
+[2017.03.26-10.27.04:629][652]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.26-10.27.05:502][720]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.26-10.27.06:337][799]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.26-10.27.06:979][858]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.26-10.27.07:474][902]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.26-10.27.09:531][ 99]LogEditorViewport: Clicking on Actor (LMB): SpawnVol (SpawnVol1)
+[2017.03.26-10.27.10:981][230]Cmd: DELETE
+[2017.03.26-10.27.10:981][230]Cmd: ACTOR DELETE
+[2017.03.26-10.27.10:984][230]LogEditorActor: Deleted Actor: SpawnVol
+[2017.03.26-10.27.11:011][230]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.03.26-10.27.17:833][746]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.26-10.27.38:511][658]LogEditorViewport: Clicking Background
+[2017.03.26-10.29.05:549][352]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.26-10.29.07:362][505]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.29.07:391][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.29.07:392][505]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:29:07 PM)
+[2017.03.26-10.29.07:392][505]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.29.07:395][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003634s)
+[2017.03.26-10.29.07:396][505]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.29.07:397][505]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2017.03.26-10.29.07:397][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005068s)
+[2017.03.26-10.29.07:455][505]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.29.07:485][505]LogInit: FAudioDevice initialized.
+[2017.03.26-10.29.07:520][505]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.29.07:525][505]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.29.07
+[2017.03.26-10.29.07:525][505]LogWorld: Bringing up level for play took: 0.002303
+[2017.03.26-10.29.07:528][505]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.594
+[2017.03.26-10.29.59:419][248]BlueprintLog: New page: Compile BP_GameMode
+[2017.03.26-10.29.59:995][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2017.03.26-10.30.00:027][285]LogSavePackage: Save=18.31ms
+[2017.03.26-10.30.00:027][285]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BP_GameModeF39BB1604114615E3BDBD58D2CEE1705.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_GameMode.uasset'
+[2017.03.26-10.30.00:031][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_GameMode.uasset
+[2017.03.26-10.30.07:565][813]LogSavePackage: Save=55.09ms
+[2017.03.26-10.30.07:565][813]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel694190F344028ED6BF5A7A8EC1A40234.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2017.03.26-10.30.07:570][813]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2017.03.26-10.30.07:616][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset" SILENT=true
+[2017.03.26-10.30.08:109][813]LogSavePackage: Save=467.00ms
+[2017.03.26-10.30.08:109][813]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_BuiltDataFE4A175A4961FD31A458619FCB3C9C67.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2017.03.26-10.30.08:112][813]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2017.03.26-10.30.11:135][ 77]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.30.11:160][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.30.11:160][ 77]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:30:11 PM)
+[2017.03.26-10.30.11:161][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.30.11:164][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003533s)
+[2017.03.26-10.30.11:165][ 77]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.30.11:166][ 77]LogPlayLevel: PIE: World Init took: (0.001710s)
+[2017.03.26-10.30.11:167][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.006197s)
+[2017.03.26-10.30.11:228][ 77]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.30.11:257][ 77]LogInit: FAudioDevice initialized.
+[2017.03.26-10.30.11:293][ 77]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.30.11:296][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.30.11
+[2017.03.26-10.30.11:297][ 77]LogWorld: Bringing up level for play took: 0.002028
+[2017.03.26-10.30.11:300][ 77]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.366
+[2017.03.26-10.30.22:818][328]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-10.30.24:269][479]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.30.26:069][670]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-10.30.28:426][926]LogClass: You have collected BP_Battery_C_6
+[2017.03.26-10.30.29:810][ 73]LogClass: You have collected BP_Battery_C_7
+[2017.03.26-10.30.34:207][552]LogClass: You have collected BP_Battery_C_11
+[2017.03.26-10.30.35:251][663]LogClass: You have collected BP_Battery_C_10
+[2017.03.26-10.30.38:659][ 40]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-10.30.39:625][141]LogClass: You have collected BP_Battery_C_14
+[2017.03.26-10.32.08:754][962]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.26-10.32.10:558][102]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.32.10:585][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.32.10:585][102]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:32:10 PM)
+[2017.03.26-10.32.10:585][102]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.32.10:589][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004231s)
+[2017.03.26-10.32.10:590][102]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.32.10:591][102]LogPlayLevel: PIE: World Init took: (0.001511s)
+[2017.03.26-10.32.10:591][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.006081s)
+[2017.03.26-10.32.10:643][102]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.32.10:667][102]LogInit: FAudioDevice initialized.
+[2017.03.26-10.32.10:702][102]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.32.10:707][102]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.32.10
+[2017.03.26-10.32.10:707][102]LogWorld: Bringing up level for play took: 0.003213
+[2017.03.26-10.32.10:710][102]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.224
+[2017.03.26-10.32.19:037][996]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.32.20:686][175]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-10.32.23:044][435]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-10.32.25:964][750]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-10.32.27:598][925]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-10.32.28:950][ 67]LogClass: You have collected BP_Battery_C_5
+[2017.03.26-10.32.31:733][365]LogClass: You have collected BP_Battery_C_8
+[2017.03.26-10.32.32:948][495]LogClass: You have collected BP_Battery_C_7
+[2017.03.26-10.32.32:948][495]LogClass: You have collected BP_Battery_C_6
+[2017.03.26-10.32.36:346][869]LogClass: You have collected BP_Battery_C_10
+[2017.03.26-10.32.37:973][ 41]LogClass: You have collected BP_Battery_C_9
+[2017.03.26-10.32.40:666][334]LogClass: You have collected BP_Battery_C_13
+[2017.03.26-10.32.46:714][ 13]LogClass: You have collected BP_Battery_C_12
+[2017.03.26-10.32.47:647][112]LogClass: You have collected BP_Battery_C_16
+[2017.03.26-10.33.48:692][  6]BlueprintLog: New page: Compile BatteryHUD
+[2017.03.26-10.33.48:881][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.03.26-10.33.48:881][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.03.26-10.33.48:881][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.03.26-10.33.49:320][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BatteryHUD" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BatteryHUD.uasset" SILENT=true
+[2017.03.26-10.33.49:358][ 42]LogSavePackage: Save=24.43ms
+[2017.03.26-10.33.49:358][ 42]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BatteryHUD262A90BD4A7FF9B5B82B93B0EEE91019.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BatteryHUD.uasset'
+[2017.03.26-10.33.49:362][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BatteryHUD.uasset
+[2017.03.26-10.33.51:374][217]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.33.51:405][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.33.51:405][217]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:33:51 PM)
+[2017.03.26-10.33.51:405][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.33.51:409][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003545s)
+[2017.03.26-10.33.51:410][217]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.33.51:411][217]LogPlayLevel: PIE: World Init took: (0.001849s)
+[2017.03.26-10.33.51:411][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005606s)
+[2017.03.26-10.33.51:463][217]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.33.51:486][217]LogInit: FAudioDevice initialized.
+[2017.03.26-10.33.51:518][217]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.33.51:521][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.33.51
+[2017.03.26-10.33.51:522][217]LogWorld: Bringing up level for play took: 0.001997
+[2017.03.26-10.33.51:524][217]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.591
+[2017.03.26-10.33.59:438][ 35]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-10.34.02:723][351]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.34.04:064][481]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-10.34.05:140][588]LogClass: You have collected BP_Battery_C_7
+[2017.03.26-10.34.08:084][888]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-10.34.09:278][  7]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-10.34.11:615][239]LogClass: You have collected BP_Battery_C_10
+[2017.03.26-10.34.14:796][567]LogClass: You have collected BP_Battery_C_5
+[2017.03.26-10.34.16:510][732]LogClass: You have collected BP_Battery_C_11
+[2017.03.26-10.34.17:415][818]LogClass: You have collected BP_Battery_C_6
+[2017.03.26-10.34.21:778][258]LogClass: You have collected BP_Battery_C_16
+[2017.03.26-10.34.23:115][393]LogClass: You have collected BP_Battery_C_13
+[2017.03.26-10.34.23:585][439]LogClass: You have collected BP_Battery_C_8
+[2017.03.26-10.34.24:642][544]LogClass: You have collected BP_Battery_C_17
+[2017.03.26-10.34.27:914][884]LogClass: You have collected BP_Battery_C_18
+[2017.03.26-10.34.30:192][108]LogClass: You have collected BP_Battery_C_20
+[2017.03.26-10.34.32:265][317]LogClass: You have collected BP_Battery_C_22
+[2017.03.26-10.34.33:825][477]LogClass: You have collected BP_Battery_C_21
+[2017.03.26-10.34.35:318][629]LogClass: You have collected BP_Battery_C_25
+[2017.03.26-10.34.39:898][100]LogClass: You have collected BP_Battery_C_9
+[2017.03.26-10.35.13:241][112]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0026 seconds. Added 2 classes and 2 folders.
+[2017.03.26-10.37.16:094][870]LogSavePackage: Save=26.84ms
+[2017.03.26-10.37.16:094][870]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/P_electricity_arcC57FEBAE43F78CE14E7E6FA2D8B5F0F7.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2017.03.26-10.37.16:097][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset
+[2017.03.26-10.37.18:425][ 97]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.37.18:456][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.37.18:456][ 97]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:37:18 PM)
+[2017.03.26-10.37.18:456][ 97]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.37.18:460][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003413s)
+[2017.03.26-10.37.18:461][ 97]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.37.18:461][ 97]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2017.03.26-10.37.18:461][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.004858s)
+[2017.03.26-10.37.18:513][ 97]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.37.18:537][ 97]LogInit: FAudioDevice initialized.
+[2017.03.26-10.37.18:569][ 97]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.37.18:573][ 97]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.37.18
+[2017.03.26-10.37.18:573][ 97]LogWorld: Bringing up level for play took: 0.002071
+[2017.03.26-10.37.18:577][ 97]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.358
+[2017.03.26-10.37.25:587][814]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-10.37.30:117][293]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.37.33:513][644]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-10.37.41:404][475]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-10.37.42:426][572]LogClass: You have collected BP_Battery_C_5
+[2017.03.26-10.38.34:746][838]LogSavePackage: Save=55.58ms
+[2017.03.26-10.38.34:746][838]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel7EA34B1E43ACCFA41C4CEBB67925CB77.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2017.03.26-10.38.34:754][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2017.03.26-10.38.34:797][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset" SILENT=true
+[2017.03.26-10.38.35:302][838]LogSavePackage: Save=480.68ms
+[2017.03.26-10.38.35:303][838]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_BuiltData1C5AFE774FBDF5348257AFB41A1097C5.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2017.03.26-10.38.35:306][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2017.03.26-10.38.35:973][888]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-10.38.36:000][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-10.38.36:001][888]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 8:38:36 PM)
+[2017.03.26-10.38.36:001][888]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-10.38.36:004][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003578s)
+[2017.03.26-10.38.36:005][888]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-10.38.36:006][888]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2017.03.26-10.38.36:006][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005271s)
+[2017.03.26-10.38.36:054][888]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-10.38.36:076][888]LogInit: FAudioDevice initialized.
+[2017.03.26-10.38.36:108][888]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-10.38.36:112][888]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-03.38.36
+[2017.03.26-10.38.36:112][888]LogWorld: Bringing up level for play took: 0.002388
+[2017.03.26-10.38.36:115][888]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.819
+[2017.03.26-10.38.45:540][965]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-10.38.49:450][426]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-10.38.50:872][592]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-10.38.51:342][648]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-10.38.52:710][810]LogClass: You have collected BP_Battery_C_5
+[2017.03.26-10.38.53:033][848]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-10.38.54:338][  3]LogClass: You have collected BP_Battery_C_6
+[2017.03.26-10.38.56:766][291]LogClass: You have collected BP_Battery_C_10
+[2017.03.26-10.38.56:766][291]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-10.38.57:418][367]LogClass: You have collected BP_Battery_C_11
+[2017.03.26-10.38.59:293][584]LogClass: You have collected BP_Battery_C_7
+[2017.03.26-10.38.59:294][584]LogClass: You have collected BP_Battery_C_8
+[2017.03.26-10.39.03:604][ 76]LogClass: You have collected BP_Battery_C_15
+[2017.03.26-10.39.04:594][191]LogClass: You have collected BP_Battery_C_14
+[2017.03.26-10.39.05:283][272]LogClass: You have collected BP_Battery_C_13
+[2017.03.26-10.39.06:623][426]LogClass: You have collected BP_Battery_C_16
+[2017.03.26-10.39.10:308][860]LogClass: You have collected BP_Battery_C_19
+[2017.03.26-10.39.10:308][860]LogClass: You have collected BP_Battery_C_9
+[2017.03.26-10.39.10:308][860]LogClass: You have collected BP_Battery_C_20
+[2017.03.26-10.39.11:936][ 49]LogClass: You have collected BP_Battery_C_12
+[2017.03.26-10.39.13:503][233]LogClass: You have collected BP_Battery_C_22
+[2017.03.26-10.39.14:415][339]LogClass: You have collected BP_Battery_C_23
+[2017.03.26-10.39.16:857][628]LogClass: You have collected BP_Battery_C_17
+[2017.03.26-10.39.22:190][258]LogClass: You have collected BP_Battery_C_21
+[2017.03.26-10.39.22:661][313]LogClass: You have collected BP_Battery_C_18
+[2017.03.26-10.39.24:918][581]LogClass: You have collected BP_Battery_C_28
+[2017.03.26-10.39.26:761][797]LogClass: You have collected BP_Battery_C_24
+[2017.03.26-10.39.27:031][829]LogClass: You have collected BP_Battery_C_27
+[2017.03.26-10.39.28:621][ 14]LogClass: You have collected BP_Battery_C_25
+[2017.03.26-10.39.30:427][227]LogClass: You have collected BP_Battery_C_35
+[2017.03.26-10.39.31:596][362]LogClass: You have collected BP_Battery_C_36
+[2017.03.26-10.39.32:526][470]LogClass: You have collected BP_Battery_C_32
+[2017.03.26-10.39.34:373][688]LogClass: You have collected BP_Battery_C_34
+[2017.03.26-10.39.35:865][863]LogClass: You have collected BP_Battery_C_39
+[2017.03.26-10.39.36:100][887]LogClass: You have collected BP_Battery_C_29
+[2017.03.26-10.39.36:356][917]LogClass: You have collected BP_Battery_C_30
+[2017.03.26-10.39.37:024][994]LogClass: You have collected BP_Battery_C_33
+[2017.03.26-10.39.37:267][ 23]LogClass: You have collected BP_Battery_C_37
+[2017.03.26-10.39.38:216][134]LogClass: You have collected BP_Battery_C_26
+[2017.03.26-10.39.39:131][241]LogClass: You have collected BP_Battery_C_42
+[2017.03.26-10.39.39:961][339]LogClass: You have collected BP_Battery_C_31
+[2017.03.26-10.39.41:982][578]LogClass: You have collected BP_Battery_C_38
+[2017.03.26-10.39.42:826][676]LogClass: You have collected BP_Battery_C_40
+[2017.03.26-10.39.44:238][842]LogClass: You have collected BP_Battery_C_44
+[2017.03.26-10.39.45:881][ 33]LogClass: You have collected BP_Battery_C_43
+[2017.03.26-10.39.48:567][346]LogClass: You have collected BP_Battery_C_45
+[2017.03.26-10.39.50:109][523]LogClass: You have collected BP_Battery_C_41
+[2017.03.26-10.39.52:163][758]LogClass: You have collected BP_Battery_C_47
+[2017.03.26-10.39.52:778][827]LogClass: You have collected BP_Battery_C_48
+[2017.03.26-10.39.53:783][943]LogClass: You have collected BP_Battery_C_46
+[2017.03.26-10.39.53:819][947]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=752.32 Y=914.12 Z=0.00 Location: X=3498.85 Y=-697.77 Z=28.59 Normal: X=-0.38 Y=-0.72 Z=-0.57 PenetrationDepth:1.140 Actor:BP_Battery_C_53 Component:PickupMesh BoneName:None (0 other events since notify)
+[2017.03.26-10.39.55:678][162]LogClass: You have collected BP_Battery_C_51
+[2017.03.26-10.39.56:543][262]LogClass: You have collected BP_Battery_C_53
+[2017.03.26-10.39.57:535][371]LogClass: You have collected BP_Battery_C_52
+[2017.03.26-10.39.59:092][548]LogClass: You have collected BP_Battery_C_50
+[2017.03.26-10.40.01:508][826]LogClass: You have collected BP_Battery_C_49
+[2017.03.26-10.40.02:681][960]LogClass: You have collected BP_Battery_C_55
+[2017.03.26-10.40.04:916][222]LogClass: You have collected BP_Battery_C_58
+[2017.03.26-10.40.06:469][403]LogClass: You have collected BP_Battery_C_57
+[2017.03.26-10.40.07:698][539]LogClass: You have collected BP_Battery_C_59
+[2017.03.26-10.40.08:655][648]LogClass: You have collected BP_Battery_C_61
+[2017.03.26-10.40.09:314][723]LogClass: You have collected BP_Battery_C_60
+[2017.03.26-10.40.10:651][871]LogClass: You have collected BP_Battery_C_63
+[2017.03.26-10.40.13:622][210]LogClass: You have collected BP_Battery_C_65
+[2017.03.26-10.40.14:610][321]LogClass: You have collected BP_Battery_C_62
+[2017.03.26-10.40.14:962][361]LogClass: You have collected BP_Battery_C_64
+[2017.03.26-10.40.14:962][361]LogClass: You have collected BP_Battery_C_56
+[2017.03.26-10.40.16:062][488]LogClass: You have collected BP_Battery_C_68
+[2017.03.26-10.40.18:108][726]LogClass: You have collected BP_Battery_C_66
+[2017.03.26-10.40.18:762][801]LogClass: You have collected BP_Battery_C_70
+[2017.03.26-10.40.20:971][ 56]LogClass: You have collected BP_Battery_C_67
+[2017.03.26-10.40.22:416][223]LogClass: You have collected BP_Battery_C_54
+[2017.03.26-10.40.24:984][522]LogClass: You have collected BP_Battery_C_72
+[2017.03.26-10.40.25:302][559]LogClass: You have collected BP_Battery_C_71
+[2017.03.26-10.40.27:166][777]LogClass: You have collected BP_Battery_C_69
+[2017.03.26-10.40.28:811][968]LogClass: You have collected BP_Battery_C_77
+[2017.03.26-10.40.29:729][ 71]LogClass: You have collected BP_Battery_C_73
+[2017.03.26-10.40.29:730][ 71]LogClass: You have collected BP_Battery_C_76
+[2017.03.26-10.40.31:775][304]LogClass: You have collected BP_Battery_C_74
+[2017.03.26-10.40.33:025][450]LogClass: You have collected BP_Battery_C_78
+[2017.03.26-10.40.34:518][622]LogClass: You have collected BP_Battery_C_75
+[2017.03.26-10.40.35:436][728]LogClass: You have collected BP_Battery_C_79
+[2017.03.26-10.40.37:973][ 18]LogClass: You have collected BP_Battery_C_83
+[2017.03.26-10.40.38:973][132]LogClass: You have collected BP_Battery_C_80
+[2017.03.26-10.40.39:977][245]LogClass: You have collected BP_Battery_C_82
+[2017.03.26-10.40.43:185][614]LogClass: You have collected BP_Battery_C_86
+[2017.03.26-10.40.44:575][774]LogClass: You have collected BP_Battery_C_81
+[2017.03.26-10.40.45:564][885]LogClass: You have collected BP_Battery_C_87
+[2017.03.26-10.40.46:551][998]LogClass: You have collected BP_Battery_C_84
+[2017.03.26-10.40.48:637][236]LogClass: You have collected BP_Battery_C_88
+[2017.03.26-10.40.50:000][389]LogClass: You have collected BP_Battery_C_89
+[2017.03.26-10.40.51:782][597]LogClass: You have collected BP_Battery_C_90
+[2017.03.26-10.40.52:602][690]LogClass: You have collected BP_Battery_C_91
+[2017.03.26-10.40.54:417][901]LogClass: You have collected BP_Battery_C_92
+[2017.03.26-10.40.55:951][ 78]LogClass: You have collected BP_Battery_C_85
+[2017.03.26-10.40.57:344][239]LogClass: You have collected BP_Battery_C_93
+[2017.03.26-10.41.00:800][639]LogClass: You have collected BP_Battery_C_94
+[2017.03.26-10.41.01:376][706]LogClass: You have collected BP_Battery_C_95
+[2017.03.26-10.41.02:032][781]LogClass: You have collected BP_Battery_C_97
+[2017.03.26-10.41.02:825][873]LogClass: You have collected BP_Battery_C_96
+[2017.03.26-10.41.05:866][224]LogClass: You have collected BP_Battery_C_98
+[2017.03.26-10.41.07:697][434]LogClass: You have collected BP_Battery_C_99
+[2017.03.26-10.41.07:697][434]LogClass: You have collected BP_Battery_C_101
+[2017.03.26-10.41.08:543][533]LogClass: You have collected BP_Battery_C_102
+[2017.03.26-10.41.10:216][726]LogClass: You have collected BP_Battery_C_105
+[2017.03.26-10.41.11:259][846]LogClass: You have collected BP_Battery_C_103
+[2017.03.26-10.41.12:138][946]LogClass: You have collected BP_Battery_C_106
+[2017.03.26-10.41.13:927][152]LogClass: You have collected BP_Battery_C_100
+[2017.03.26-10.41.15:743][359]LogClass: You have collected BP_Battery_C_107
+[2017.03.26-10.41.16:598][456]LogClass: You have collected BP_Battery_C_108
+[2017.03.26-10.41.18:621][690]LogClass: You have collected BP_Battery_C_104
+[2017.03.26-10.41.19:629][806]LogClass: You have collected BP_Battery_C_110
+[2017.03.26-10.41.20:480][905]LogClass: You have collected BP_Battery_C_111
+[2017.03.26-10.41.21:813][ 54]LogClass: You have collected BP_Battery_C_113
+[2017.03.26-10.41.22:047][ 81]LogClass: You have collected BP_Battery_C_109
+[2017.03.26-10.41.27:071][656]LogClass: You have collected BP_Battery_C_115
+[2017.03.26-10.41.28:018][763]LogClass: You have collected BP_Battery_C_116
+[2017.03.26-10.41.28:722][843]LogClass: You have collected BP_Battery_C_114
+[2017.03.26-10.41.30:429][ 39]LogClass: You have collected BP_Battery_C_117
+[2017.03.26-10.41.31:562][166]LogClass: You have collected BP_Battery_C_112
+[2017.03.26-10.41.33:355][374]LogClass: You have collected BP_Battery_C_119
+[2017.03.26-10.41.34:682][526]LogClass: You have collected BP_Battery_C_118
+[2017.03.26-10.41.35:707][643]LogClass: You have collected BP_Battery_C_121
+[2017.03.26-10.41.35:940][669]LogClass: You have collected BP_Battery_C_120
+[2017.03.26-10.41.38:302][937]LogClass: You have collected BP_Battery_C_124
+[2017.03.26-10.41.41:248][280]LogClass: You have collected BP_Battery_C_125
+[2017.03.26-10.41.43:215][505]LogClass: You have collected BP_Battery_C_122
+[2017.03.26-10.41.44:977][707]LogClass: You have collected BP_Battery_C_123
+[2017.03.26-10.41.45:477][766]LogClass: You have collected BP_Battery_C_127
+[2017.03.26-10.41.49:438][223]LogClass: You have collected BP_Battery_C_129
+[2017.03.26-10.41.50:618][354]LogClass: You have collected BP_Battery_C_128
+[2017.03.26-10.41.51:155][416]LogClass: You have collected BP_Battery_C_131
+[2017.03.26-10.41.52:677][591]LogClass: You have collected BP_Battery_C_130
+[2017.03.26-10.41.52:938][622]LogClass: You have collected BP_Battery_C_134
+[2017.03.26-10.41.55:649][935]LogClass: You have collected BP_Battery_C_135
+[2017.03.26-10.41.56:737][ 59]LogClass: You have collected BP_Battery_C_136
+[2017.03.26-10.41.58:041][209]LogClass: You have collected BP_Battery_C_137
+[2017.03.26-10.41.59:818][414]LogClass: You have collected BP_Battery_C_138
+[2017.03.26-10.42.01:902][655]LogClass: You have collected BP_Battery_C_133
+[2017.03.26-10.42.02:975][775]LogClass: You have collected BP_Battery_C_126
+[2017.03.26-10.42.05:791][ 96]LogClass: You have collected BP_Battery_C_140
+[2017.03.26-10.42.07:893][338]LogClass: You have collected BP_Battery_C_144
+[2017.03.26-10.42.08:466][403]LogClass: You have collected BP_Battery_C_139
+[2017.03.26-10.42.09:370][505]LogClass: You have collected BP_Battery_C_143
+[2017.03.26-10.42.10:252][603]LogClass: You have collected BP_Battery_C_145
+[2017.03.26-10.42.11:628][759]LogClass: You have collected BP_Battery_C_147
+[2017.03.26-10.42.12:671][878]LogClass: You have collected BP_Battery_C_146
+[2017.03.26-10.42.14:056][ 38]LogClass: You have collected BP_Battery_C_132
+[2017.03.26-10.42.15:537][208]LogClass: You have collected BP_Battery_C_149
+[2017.03.26-10.42.16:329][297]LogClass: You have collected BP_Battery_C_150
+[2017.03.26-10.42.18:182][508]LogClass: You have collected BP_Battery_C_151
+[2017.03.26-10.42.19:442][650]LogClass: You have collected BP_Battery_C_148
+[2017.03.26-10.42.20:120][727]LogClass: You have collected BP_Battery_C_153
+[2017.03.26-10.42.20:433][762]LogClass: You have collected BP_Battery_C_152
+[2017.03.26-10.42.22:011][944]LogClass: You have collected BP_Battery_C_141
+[2017.03.26-10.42.24:519][228]LogClass: You have collected BP_Battery_C_142
+[2017.03.26-10.42.26:310][435]LogClass: You have collected BP_Battery_C_156
+[2017.03.26-10.42.27:488][568]LogClass: You have collected BP_Battery_C_155
+[2017.03.26-10.42.28:290][659]LogClass: You have collected BP_Battery_C_160
+[2017.03.26-10.42.29:367][782]LogClass: You have collected BP_Battery_C_154
+[2017.03.26-10.42.30:148][873]LogClass: You have collected BP_Battery_C_159
+[2017.03.26-10.42.30:148][873]LogClass: You have collected BP_Battery_C_158
+[2017.03.26-10.42.31:485][ 28]LogClass: You have collected BP_Battery_C_157
+[2017.03.26-10.42.34:109][337]LogClass: You have collected BP_Battery_C_163
+[2017.03.26-10.42.35:711][522]LogClass: You have collected BP_Battery_C_161
+[2017.03.26-10.42.38:166][811]LogClass: You have collected BP_Battery_C_162
+[2017.03.26-10.42.38:166][811]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.03.26-11.37.15:419][336]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-11.37.15:446][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-11.37.15:446][336]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 9:37:15 PM)
+[2017.03.26-11.37.15:446][336]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-11.37.15:452][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005303s)
+[2017.03.26-11.37.15:454][336]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-11.37.15:454][336]LogPlayLevel: PIE: World Init took: (0.002167s)
+[2017.03.26-11.37.15:454][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.007775s)
+[2017.03.26-11.37.15:504][336]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-11.37.15:537][336]LogInit: FAudioDevice initialized.
+[2017.03.26-11.37.15:571][336]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-11.37.15:574][336]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-04.37.15
+[2017.03.26-11.37.15:575][336]LogWorld: Bringing up level for play took: 0.002218
+[2017.03.26-11.37.15:578][336]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.644
+[2017.03.26-11.37.19:570][804]LogClass: You have collected BP_Battery_C_0
+[2017.03.26-11.37.21:882][ 76]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-11.37.24:704][405]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-11.37.25:719][522]LogClass: You have collected BP_Battery_C_4
+[2017.03.26-11.37.28:307][823]LogClass: You have collected BP_Battery_C_7
+[2017.03.26-11.37.30:503][ 79]LogClass: You have collected BP_Battery_C_9
+[2017.03.26-11.37.31:207][161]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-11.37.33:305][409]LogClass: You have collected BP_Battery_C_11
+[2017.03.26-11.37.34:771][581]LogClass: You have collected BP_Battery_C_5
+[2017.03.26-11.37.38:767][ 51]LogClass: You have collected BP_Battery_C_6
+[2017.03.26-11.37.38:767][ 51]LogClass: You have collected BP_Battery_C_8
+[2017.03.26-11.37.39:437][129]LogClass: You have collected BP_Battery_C_12
+[2017.03.26-11.37.42:824][526]LogClass: You have collected BP_Battery_C_10
+[2017.03.26-11.37.43:513][604]LogClass: You have collected BP_Battery_C_18
+[2017.03.26-11.37.44:206][685]LogClass: You have collected BP_Battery_C_15
+[2017.03.26-11.37.44:896][765]LogClass: You have collected BP_Battery_C_14
+[2017.03.26-11.37.45:794][869]LogClass: You have collected BP_Battery_C_16
+[2017.03.26-11.37.46:578][960]LogClass: You have collected BP_Battery_C_20
+[2017.03.26-11.37.46:774][982]LogClass: You have collected BP_Battery_C_21
+[2017.03.26-11.37.49:064][248]LogClass: You have collected BP_Battery_C_22
+[2017.03.26-11.37.49:532][302]LogClass: You have collected BP_Battery_C_17
+[2017.03.26-11.37.50:246][385]LogClass: You have collected BP_Battery_C_13
+[2017.03.26-11.37.50:454][409]LogClass: You have collected BP_Battery_C_19
+[2017.03.26-11.37.52:542][655]LogClass: You have collected BP_Battery_C_25
+[2017.03.26-11.37.53:916][816]LogClass: You have collected BP_Battery_C_24
+[2017.03.26-11.37.54:396][872]LogClass: You have collected BP_Battery_C_26
+[2017.03.26-11.37.55:332][981]LogClass: You have collected BP_Battery_C_23
+[2017.03.26-11.37.58:578][364]LogClass: You have collected BP_Battery_C_27
+[2017.03.26-11.37.59:702][495]LogClass: You have collected BP_Battery_C_28
+[2017.03.26-11.38.02:137][783]LogClass: You have collected BP_Battery_C_30
+[2017.03.26-11.38.05:266][150]LogClass: You have collected BP_Battery_C_29
+[2017.03.26-11.38.06:608][308]LogClass: You have collected BP_Battery_C_33
+[2017.03.26-11.38.07:840][450]LogClass: You have collected BP_Battery_C_31
+[2017.03.26-11.38.09:102][598]LogClass: You have collected BP_Battery_C_35
+[2017.03.26-11.38.10:737][787]LogClass: You have collected BP_Battery_C_32
+[2017.03.26-11.38.12:446][985]LogClass: You have collected BP_Battery_C_37
+[2017.03.26-11.38.13:535][112]LogClass: You have collected BP_Battery_C_40
+[2017.03.26-11.38.13:535][112]LogClass: You have collected BP_Battery_C_34
+[2017.03.26-11.38.16:834][493]LogClass: You have collected BP_Battery_C_39
+[2017.03.26-11.38.18:934][735]LogClass: You have collected BP_Battery_C_43
+[2017.03.26-11.38.20:215][884]LogClass: You have collected BP_Battery_C_36
+[2017.03.26-11.38.20:605][930]LogClass: You have collected BP_Battery_C_44
+[2017.03.26-11.38.21:884][ 80]LogClass: You have collected BP_Battery_C_41
+[2017.03.26-11.38.22:313][131]LogClass: You have collected BP_Battery_C_45
+[2017.03.26-11.38.24:402][377]LogClass: You have collected BP_Battery_C_46
+[2017.03.26-11.38.26:598][636]LogClass: You have collected BP_Battery_C_42
+[2017.03.26-11.38.28:761][891]LogClass: You have collected BP_Battery_C_49
+[2017.03.26-11.38.30:034][ 39]LogClass: You have collected BP_Battery_C_51
+[2017.03.26-11.38.30:682][114]LogClass: You have collected BP_Battery_C_47
+[2017.03.26-11.38.32:315][304]LogClass: You have collected BP_Battery_C_48
+[2017.03.26-11.38.32:986][382]LogClass: You have collected BP_Battery_C_50
+[2017.03.26-11.38.36:480][792]LogClass: You have collected BP_Battery_C_52
+[2017.03.26-11.38.36:480][792]LogClass: You have collected BP_Battery_C_54
+[2017.03.26-11.38.38:237][997]LogClass: You have collected BP_Battery_C_55
+[2017.03.26-11.38.39:492][143]LogClass: You have collected BP_Battery_C_53
+[2017.03.26-11.38.40:358][244]LogClass: You have collected BP_Battery_C_60
+[2017.03.26-11.38.41:275][352]LogClass: You have collected BP_Battery_C_58
+[2017.03.26-11.38.41:902][426]LogClass: You have collected BP_Battery_C_57
+[2017.03.26-11.38.43:672][633]LogClass: You have collected BP_Battery_C_61
+[2017.03.26-11.38.44:347][713]LogClass: You have collected BP_Battery_C_59
+[2017.03.26-11.38.47:686][104]LogClass: You have collected BP_Battery_C_62
+[2017.03.26-11.38.48:328][179]LogClass: You have collected BP_Battery_C_64
+[2017.03.26-11.38.51:053][499]LogClass: You have collected BP_Battery_C_67
+[2017.03.26-11.38.51:462][547]LogClass: You have collected BP_Battery_C_69
+[2017.03.26-11.38.51:667][571]LogClass: You have collected BP_Battery_C_65
+[2017.03.26-11.38.52:572][677]LogClass: You have collected BP_Battery_C_63
+[2017.03.26-11.38.54:860][944]LogClass: You have collected BP_Battery_C_38
+[2017.03.26-11.38.55:847][ 58]LogClass: You have collected BP_Battery_C_70
+[2017.03.26-11.38.58:672][389]LogClass: You have collected BP_Battery_C_66
+[2017.03.26-11.38.58:897][416]LogClass: You have collected BP_Battery_C_56
+[2017.03.26-11.39.00:280][575]LogClass: You have collected BP_Battery_C_73
+[2017.03.26-11.39.01:233][681]LogClass: You have collected BP_Battery_C_68
+[2017.03.26-11.39.02:870][862]LogClass: You have collected BP_Battery_C_75
+[2017.03.26-11.39.03:902][981]LogClass: You have collected BP_Battery_C_71
+[2017.03.26-11.39.04:707][ 73]LogClass: You have collected BP_Battery_C_77
+[2017.03.26-11.39.06:643][300]LogClass: You have collected BP_Battery_C_78
+[2017.03.26-11.39.07:854][440]LogClass: You have collected BP_Battery_C_79
+[2017.03.26-11.39.08:056][463]LogClass: You have collected BP_Battery_C_76
+[2017.03.26-11.39.09:271][604]LogClass: You have collected BP_Battery_C_74
+[2017.03.26-11.39.09:469][627]LogClass: You have collected BP_Battery_C_72
+[2017.03.26-11.39.12:814][ 21]LogClass: You have collected BP_Battery_C_81
+[2017.03.26-11.39.14:883][265]LogClass: You have collected BP_Battery_C_80
+[2017.03.26-11.39.26:502][571]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.26-11.39.26:528][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.26-11.39.26:528][571]PIE: New page: PIE session: CollectionLevel (Mar 25, 2017, 9:39:26 PM)
+[2017.03.26-11.39.26:528][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.26-11.39.26:532][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003465s)
+[2017.03.26-11.39.26:533][571]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.26-11.39.26:533][571]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2017.03.26-11.39.26:533][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005054s)
+[2017.03.26-11.39.26:592][571]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.26-11.39.26:613][571]LogInit: FAudioDevice initialized.
+[2017.03.26-11.39.26:649][571]LogLoad: Game class is 'BP_GameMode_C'
+[2017.03.26-11.39.26:653][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.26-04.39.26
+[2017.03.26-11.39.26:653][571]LogWorld: Bringing up level for play took: 0.002073
+[2017.03.26-11.39.26:656][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.278
+[2017.03.26-11.39.35:601][624]LogClass: You have collected BP_Battery_C_3
+[2017.03.26-11.39.41:674][339]LogClass: You have collected BP_Battery_C_2
+[2017.03.26-11.39.48:515][155]LogClass: You have collected BP_Battery_C_1
+[2017.03.26-11.39.50:382][373]LogClass: You have collected BP_Battery_C_8
+[2017.03.26-11.41.30:397][577]LogSavePackage: Save=54.51ms
+[2017.03.26-11.41.30:397][577]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel7014BB204CB6B60145BE958EE355A4EA.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2017.03.26-11.41.30:406][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2017.03.26-11.41.30:453][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset" SILENT=true
+[2017.03.26-11.41.30:921][577]LogSavePackage: Save=445.43ms
+[2017.03.26-11.41.30:921][577]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_BuiltDataD4E674F1426D8FC680FD5A87E047683F.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2017.03.26-11.41.30:924][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2017.03.26-11.41.33:176][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.26-11.41.34:399][850]LogCascade: Quitting Cascade. FXSystem=0x00000144312063E0
+[2017.03.26-11.41.36:519][ 11]Cmd: QUIT_EDITOR
+[2017.03.26-11.41.37:592][ 11]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.26-11.41.37:662][ 11]LogExit: Preparing to exit.
+[2017.03.26-11.41.38:560][ 11]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/' was aborted.
+[2017.03.26-11.41.38:707][ 11]LogExit: Editor shut down
+[2017.03.26-11.41.38:709][ 11]LogExit: Transaction tracking system shut down
+[2017.03.26-11.41.39:683][ 11]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.26-11.41.39:685][ 11]LogExit: Object subsystem successfully closed.
+[2017.03.26-11.41.39:915][ 11]LogD3D11RHI: Shutdown
+[2017.03.26-11.41.39:915][ 11]LogD3D11RHI: CleanupD3DDevice
+[2017.03.26-11.41.40:179][ 11]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module DistCurveEditor (519)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module Cascade (517)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module SequencerWidgets (515)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module SkeletonEditor (513)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (511)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module PhAT (509)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module BatteryCollector (507)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.03.26-11.41.40:839][ 11]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.03.26-11.41.40:886][ 11]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.03.26-11.41.40:886][ 11]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.03.26-11.41.40:902][ 11]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.03.26-11.41.40:902][ 11]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.03.26-11.41.40:902][ 11]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.03.26-11.41.40:909][ 11]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.26-11.41.40:933][ 11]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.03.26-11.41.40:933][ 11]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.03.26-11.41.40:933][ 11]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.03.26-11.41.40:955][ 11]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Collections/' was aborted.
+[2017.03.26-11.41.40:955][ 11]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Developers/Liam/Collections/' was aborted.
+[2017.03.26-11.41.40:955][ 11]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Collections/' was aborted.
+[2017.03.26-11.41.40:955][ 11]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.03.26-11.41.40:966][ 11]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.03.26-11.41.40:966][ 11]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.03.26-11.41.40:966][ 11]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.03.26-11.41.40:966][ 11]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.03.26-11.41.40:966][ 11]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.03.26-11.41.40:966][ 11]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.03.26-11.41.40:967][ 11]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.03.26-11.41.40:968][ 11]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.03.26-11.41.40:973][ 11]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.03.26-11.41.40:978][ 11]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.03.26-11.41.40:983][ 11]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.03.26-11.41.40:984][ 11]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.03.26-11.41.41:009][ 11]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.03.26-11.41.41:011][ 11]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.03.26-11.41.41:034][ 11]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.03.26-11.41.41:034][ 11]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.03.26-11.41.41:034][ 11]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.03.26-11.41.41:034][ 11]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.03.26-11.41.41:034][ 11]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.03.26-11.41.41:048][ 11]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.03.26-11.41.41:055][ 11]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.03.26-11.41.41:055][ 11]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.03.26-11.41.41:055][ 11]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.03.26-11.41.41:055][ 11]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.03.26-11.41.41:055][ 11]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.03.26-11.41.41:055][ 11]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.03.26-11.41.41:967][ 11]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.03.26-11.41.41:967][ 11]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.03.26-11.41.41:967][ 11]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.03.26-11.41.41:967][ 11]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.03.26-11.41.41:992][ 11]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.03.26-11.41.42:011][ 11]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.03.26-11.41.42:014][ 11]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.03.26-11.41.42:015][ 11]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.03.26-11.41.42:015][ 11]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.03.26-11.41.42:019][ 11]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.03.26-11.41.42:027][ 11]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.03.26-11.41.42:027][ 11]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.03.26-11.41.42:034][ 11]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.03.26-11.41.42:040][ 11]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.03.26-11.41.42:040][ 11]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.03.26-11.41.42:053][ 11]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.03.26-11.41.42:056][ 11]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.03.26-11.41.42:056][ 11]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.03.26-11.41.42:057][ 11]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.03.26-11.41.42:057][ 11]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.03.26-11.41.42:057][ 11]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.03.26-11.41.42:076][ 11]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.03.26-11.41.42:079][ 11]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.03.26-11.41.42:083][ 11]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.03.26-11.41.42:097][ 11]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.03.26-11.41.42:140][ 11]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.03.26-11.41.42:172][ 11]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.03.26-11.41.42:193][ 11]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.03.26-11.41.42:246][ 11]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.03.26-11.41.42:246][ 11]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.03.26-11.41.42:251][ 11]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.03.26-11.41.42:251][ 11]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.03.26-11.41.42:251][ 11]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.03.26-11.41.42:251][ 11]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.03.26-11.41.42:264][ 11]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.03.26-11.41.42:264][ 11]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.03.26-11.41.42:264][ 11]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.03.26-11.41.42:272][ 11]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.03.26-11.41.42:292][ 11]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.03.26-11.41.42:301][ 11]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.03.26-11.41.42:301][ 11]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.03.26-11.41.42:308][ 11]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.03.26-11.41.42:314][ 11]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.03.26-11.41.42:314][ 11]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.03.26-11.41.42:314][ 11]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.03.26-11.41.42:448][ 11]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.03.26-11.41.42:493][ 11]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.03.26-11.41.42:493][ 11]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.03.26-11.41.42:493][ 11]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.03.26-11.41.42:493][ 11]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.03.26-11.41.42:500][ 11]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.03.26-11.41.42:500][ 11]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.03.26-11.41.42:500][ 11]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.03.26-11.41.42:500][ 11]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.03.26-11.41.42:500][ 11]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.03.26-11.41.42:508][ 11]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.03.26-11.41.42:508][ 11]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.03.26-11.41.42:522][ 11]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.03.26-11.41.42:522][ 11]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.03.26-11.41.42:522][ 11]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.03.26-11.41.42:522][ 11]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.03.26-11.41.42:531][ 11]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.03.26-11.41.42:531][ 11]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.03.26-11.41.42:531][ 11]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.03.26-11.41.42:531][ 11]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.03.26-11.41.42:531][ 11]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.03.26-11.41.42:550][ 11]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.03.26-11.41.42:550][ 11]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.03.26-11.41.42:550][ 11]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.03.26-11.41.42:550][ 11]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.03.26-11.41.42:550][ 11]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.03.26-11.41.42:550][ 11]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.03.26-11.41.42:556][ 11]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.03.26-11.41.42:565][ 11]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.03.26-11.41.42:579][ 11]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.03.26-11.41.42:593][ 11]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.03.26-11.41.42:593][ 11]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.03.26-11.41.42:593][ 11]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.03.26-11.41.42:593][ 11]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.03.26-11.41.42:603][ 11]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.03.26-11.41.42:603][ 11]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.03.26-11.41.42:611][ 11]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.03.26-11.41.42:641][ 11]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.03.26-11.41.42:641][ 11]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.03.26-11.41.42:641][ 11]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Binaries/Win64' was aborted.
+[2017.03.26-11.41.42:642][ 11]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.03.26-11.41.42:644][ 11]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.03.26-11.41.42:644][ 11]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.03.26-11.41.42:644][ 11]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.03.26-11.41.42:644][ 11]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.03.26-11.41.42:744][ 11]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.03.26-11.41.42:851][ 11]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.03.26-11.41.42:856][ 11]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.03.26-11.41.42:866][ 11]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.03.26-11.41.42:866][ 11]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.03.26-11.41.42:866][ 11]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.03.26-11.41.42:875][ 11]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.03.26-11.41.42:888][ 11]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.03.26-11.41.42:900][ 11]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.03.26-11.41.42:900][ 11]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.03.26-11.41.42:900][ 11]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.03.26-11.41.42:905][ 11]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.03.26-11.41.42:905][ 11]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.03.26-11.41.42:905][ 11]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.03.26-11.41.42:934][ 11]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.03.26-11.41.42:934][ 11]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.03.26-11.41.42:941][ 11]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.03.26-11.41.42:944][ 11]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.03.26-11.41.42:944][ 11]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.03.26-11.41.42:944][ 11]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.03.26-11.41.43:017][ 11]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.03.26-11.41.43:017][ 11]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.03.26-11.41.43:017][ 11]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.03.26-11.41.43:039][ 11]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.03.26-11.41.43:039][ 11]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.03.26-11.41.43:051][ 11]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.03.26-11.41.43:064][ 11]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.03.26-11.41.43:064][ 11]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.03.26-11.41.43:064][ 11]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.03.26-11.41.43:064][ 11]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.03.26-11.41.43:064][ 11]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.03.26-11.41.43:216][ 11]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.26-11.41.43:216][ 11]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/' was aborted.
+[2017.03.26-11.41.43:216][ 11]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.26-11.41.43:233][ 11]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.03.26-11.41.43:241][ 11]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.03.26-11.41.43:241][ 11]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.03.26-11.41.43:241][ 11]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.03.26-11.41.43:244][ 11]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.03.26-11.41.43:252][ 11]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.03.26-11.41.43:252][ 11]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.03.26-11.41.43:259][ 11]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.03.26-11.41.43:265][ 11]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.03.26-11.41.43:312][ 11]LogDerivedDataCache: Shutdown
+[2017.03.26-11.41.43:312][ 11]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.03.26-11.41.43:312][ 11]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.03.26-11.41.43:314][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.03.26-11.41.43:320][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.03.26-11.41.43:330][ 11]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.03.26-11.41.43:333][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.03.26-11.41.43:333][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.03.26-11.41.43:333][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.03.26-11.41.43:334][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.03.26-11.41.43:342][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.03.26-11.41.43:342][ 11]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.03.26-11.41.43:342][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.03.26-11.41.43:342][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.03.26-11.41.43:349][ 11]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.03.26-11.41.43:350][ 11]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.03.26-11.41.43:357][ 11]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.03.26-11.41.43:357][ 11]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.26-11.41.43:357][ 11]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.26-11.41.43:357][ 11]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.26-11.41.43:357][ 11]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.26-11.41.43:391][ 11]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.26-11.41.43:400][ 11]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.26-11.41.43:400][ 11]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.26-11.41.43:400][ 11]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2ECD5F0C-4B9C-D5FF-C551-EAAE8EA5F265%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3c53aeb14f8381cf589af9a05a045162%7C191bcd9e71e141a7a207a951597e632a%7C6892023d-28ec-4f87-8958-26e7706dbce6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.26-11.41.43:425][ 11]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.26-11.41.43:437][ 11]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.26-11.41.43:445][ 11]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.26-11.41.43:456][ 11]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.26-11.41.43:456][ 11]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.26-11.41.43:456][ 11]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.26-11.41.43:496][ 11]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.26-11.41.43:500][ 11]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.26-11.41.43:500][ 11]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.26-11.41.43:511][ 11]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.26-11.41.43:511][ 11]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.26-11.41.43:511][ 11]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.26-11.41.43:511][ 11]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.26-11.41.43:520][ 11]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.26-11.41.43:530][ 11]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.26-11.41.43:530][ 11]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.26-11.41.43:537][ 11]LogExit: Exiting.
+[2017.03.26-11.41.43:559][ 11]Log file closed, 03/26/17 04:41:43

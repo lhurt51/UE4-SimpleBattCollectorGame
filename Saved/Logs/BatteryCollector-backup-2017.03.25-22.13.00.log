@@ -1,0 +1,1325 @@
+﻿Log file open, 03/25/17 00:41:42
+LogInit:Display: Running engine for game: BatteryCollector
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1894443527) SRandInit(1894443527).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 7.609867
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.25-07.41.50:416][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.25-07.41.50:416][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.25-07.41.52:365][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.03.25-07.41.52:365][  0]LogInit: User: Liam
+[2017.03.25-07.41.52:365][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.25-07.41.52:365][  0]LogInit: High frequency timer resolution =3.906387 MHz
+[2017.03.25-07.41.52:366][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.25-07.41.52:715][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.25-07.41.52:715][  0]LogMemory: Process Physical Memory: 263.47 MB used, 263.47 MB peak
+[2017.03.25-07.41.52:715][  0]LogMemory: Process Virtual Memory: 262.76 MB used, 262.76 MB peak
+[2017.03.25-07.41.52:715][  0]LogMemory: Physical Memory: 7765.76 MB used,  373.24 MB free, 8139.00 MB total
+[2017.03.25-07.41.52:715][  0]LogMemory: Virtual Memory: 645.13 MB used,  373.24 MB free, 134217728.00 MB total
+[2017.03.25-07.42.12:183][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.25-07.42.32:057][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.25-07.42.34:222][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.03.25-07.42.34:222][  0]LogD3D11RHI:       4063/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.25-07.42.34:946][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.25-07.42.34:946][  0]LogD3D11RHI:       0/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.25-07.42.34:946][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.25-07.42.35:523][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.25-07.42.35:523][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.25-07.42.35:523][  0]LogWindows: EnumDisplayDevices:
+[2017.03.25-07.42.35:523][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.03.25-07.42.35:523][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.25-07.42.35:523][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.25-07.42.35:524][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.25-07.42.35:524][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.25-07.42.35:524][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.03.25-07.42.35:524][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.25-07.42.35:524][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.25-07.42.35:524][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.25-07.42.35:971][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.25-07.42.36:039][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.25-07.42.40:101][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 7)
+[2017.03.25-07.42.40:321][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Intermediate/Shaders/WorkingDirectory/1116/).
+[2017.03.25-07.42.40:437][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/7552183B43D00D176359EC9049336002/'.
+[2017.03.25-07.42.40:437][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.25-07.43.05:251][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.25-07.43.05:390][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.25-07.43.05:523][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.25-07.43.05:662][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.25-07.43.05:856][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.25-07.43.05:964][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.25-07.43.06:081][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.25-07.43.06:183][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.25-07.43.06:427][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.25-07.43.06:634][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.25-07.43.06:764][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.25-07.43.06:876][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.25-07.43.07:006][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.25-07.43.07:147][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.25-07.43.07:281][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.25-07.43.07:597][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.25-07.43.07:597][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.25-07.43.07:784][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.25-07.43.08:808][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.25-07.43.08:870][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.25-07.43.09:127][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.25-07.43.09:298][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.25-07.43.09:446][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.25-07.43.09:998][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.25-07.43.09:998][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.25-07.43.18:263][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.25-07.43.40:833][  0]LogDerivedDataCache: Loaded boot cache 22.54s 61MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.25-07.43.40:833][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.25-07.43.40:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.25-07.43.40:833][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.25-07.43.40:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.25-07.43.40:833][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.25-07.43.41:640][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.25-07.43.41:652][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.25-07.43.43:706][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.25-07.43.45:068][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.25-07.43.45:068][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.25-07.44.39:301][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.25-07.44.40:150][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.25-07.44.45:038][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.25-07.44.45:183][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.25-07.44.45:390][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.25-07.44.45:390][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.25-07.44.45:390][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.25-07.45.03:905][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: batterycollector, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2727626990
+[2017.03.25-07.45.04:090][  0]LogAssetRegistry: FAssetRegistry took 0.0229 seconds to start up
+[2017.03.25-07.45.04:496][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.319403 seconds
+[2017.03.25-07.45.04:542][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.25-07.45.04:542][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.03.25-07.45.04:542][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.25-07.45.04:664][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.25-07.45.34:845][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.25-07.45.34:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.25-07.45.38:413][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.25-07.45.39:721][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.45.39:784][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.45.40:020][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.45.40:134][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.45.46:579][  0]LogEngine: Initializing Engine...
+[2017.03.25-07.45.46:601][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.25-07.45.49:882][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.25-07.45.50:087][  0]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-07.45.50:228][  0]LogInit: FAudioDevice initialized.
+[2017.03.25-07.45.50:488][  0]LogDerivedDataCache: Saved boot cache 0.26s 60MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.25-07.45.50:515][  0]LogInit: Texture streaming: Enabled
+[2017.03.25-07.45.50:842][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.25-07.45.51:134][  0]LogInit: Transaction tracking system initialized
+[2017.03.25-07.45.52:463][  0]BlueprintLog: New page: Editor Load
+[2017.03.25-07.45.55:246][  0]LocalizationService: Info Localization service is disabled
+[2017.03.25-07.45.57:089][  0]LogConsoleResponse:Display: 
+[2017.03.25-07.46.00:804][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/' took 0.05s
+[2017.03.25-07.46.00:804][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.25-07.46.00:804][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.25-07.46.05:452][  0]SourceControl: Info Source control is disabled
+[2017.03.25-07.46.05:484][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.25-07.46.05:523][  0]LightingResults: New page: Lighting Build
+[2017.03.25-07.46.05:707][  0]MapCheck: New page: Map Check
+[2017.03.25-07.46.05:707][  0]LightingResults: New page: Lighting Build
+[2017.03.25-07.46.07:808][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.25-07.46.08:647][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.25-07.46.08:695][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.25-07.46.08:786][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.062ms to complete.
+[2017.03.25-07.46.08:786][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.315
+[2017.03.25-07.46.09:901][  0]LogCollectionManager: Loaded 0 collections in 0.002778 seconds
+[2017.03.25-07.46.10:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Collections/' took 0.01s
+[2017.03.25-07.46.10:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Developers/Liam/Collections/' took 0.01s
+[2017.03.25-07.46.10:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Collections/' took 0.01s
+[2017.03.25-07.46.10:127][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.25-07.46.10:163][  0]LogContentBrowser: Native class hierarchy populated in 0.0349 seconds. Added 2247 classes and 455 folders.
+[2017.03.25-07.46.10:280][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.25-07.46.10:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.011 s
+[2017.03.25-07.46.10:425][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.03.25-07.46.12:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.03.25-07.46.12:319][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.03.25-07.46.12:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.25-07.46.13:083][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.25-07.46.13:393][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.03.25-07.46.13:394][  0]LogLoad: (Engine Initialization) Total time: 319.23 seconds
+[2017.03.25-07.46.13:394][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 4.32 seconds
+[2017.03.25-07.46.13:421][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.25-07.46.13:421][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.25-07.46.13:835][  0]LogOcInput: OculusInput pre-init called
+[2017.03.25-07.46.14:180][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.25-07.46.14:361][  0]LogSlate: Took 0.014321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.25-07.46.14:389][  0]LogSlate: Took 0.022232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.25-07.46.14:464][  0]LogSlate: Took 0.018649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.25-07.46.15:630][  0]LogRenderer: Reallocating scene render targets to support 1164x580 NumSamples 1 (Frame:2).
+[2017.03.25-07.46.15:630][  0]LogSlate: Took 0.037459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.25-07.46.16:995][  3]LogAssetRegistry: Asset discovery search completed in 72.9263 seconds
+[2017.03.25-07.46.16:995][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.03.25-07.46.16:995][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000184 seconds (updated 0 objects)
+[2017.03.25-08.09.21:152][491]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.25-08.09.21:351][491]LogSlate: Took 0.033268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.25-08.09.21:436][491]LightingResults: New page: Lighting Build
+[2017.03.25-08.09.21:464][491]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.03.25-08.09.21:591][491]MapCheck: New page: Map Check
+[2017.03.25-08.09.21:591][491]LightingResults: New page: Lighting Build
+[2017.03.25-08.09.23:205][491]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.25-08.09.23:271][491]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.25-08.09.23:612][491]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.25-08.09.23:799][491]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.25-08.09.23:963][491]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.461ms to complete.
+[2017.03.25-08.09.23:963][491]LogFileHelpers: Loading map 'Template_Default' took 2.945
+[2017.03.25-08.10.14:058][550]LogSavePackage: Save=573.13ms
+[2017.03.25-08.10.14:058][550]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel715294B947512C07534040A9CFE48782.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2017.03.25-08.10.14:065][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2017.03.25-08.10.14:563][550]LogFileHelpers: Saving map 'CollectionLevel' took 5.700
+[2017.03.25-08.10.40:976][944]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.03.25-08.10.46:614][ 58]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BatteryCollector
+
+[2017.03.25-08.10.46:614][ 58]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.03.25-08.10.46:614][ 58]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.03.25-08.10.46:614][ 58]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.03.25-08.10.46:614][ 58]LogTemp:Display: BranchPath = ULTIMATESKIBUM/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ULTIMATESKIBUM/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.03.25-08.10.46:913][ 79]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Liam\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.03.25-08.10.46:913][ 79]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.03.25-08.10.46:913][ 79]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.03.25-08.10.46:913][ 79]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.03.25-08.10.46:913][ 79]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.03.25-08.10.46:913][ 79]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.03.25-08.11.02:204][172]LogSlate: Took 0.015734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.25-08.11.46:008][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.25-08.11.48:371][611]Cmd: DELETE
+[2017.03.25-08.11.48:371][611]Cmd: ACTOR DELETE
+[2017.03.25-08.11.48:630][611]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.25-08.11.48:730][611]LogEditorActor: Deleted 1 Actors (0.174 secs)
+[2017.03.25-08.12.06:370][ 73]LogStaticMesh: Building static mesh SM_DemoRoomBackWall2...
+[2017.03.25-08.12.06:428][ 73]LogStaticMesh: Built static mesh [0.13s] /Game/DemoRoom/Meshes/SM_DemoRoomBackWall2.SM_DemoRoomBackWall2
+[2017.03.25-08.12.06:520][ 73]LogStaticMesh: Building static mesh SM_DemoRoomBackWall...
+[2017.03.25-08.12.06:534][ 73]LogStaticMesh: Built static mesh [0.01s] /Game/DemoRoom/Meshes/SM_DemoRoomBackWall.SM_DemoRoomBackWall
+[2017.03.25-08.12.06:810][ 73]LogStaticMesh: Building static mesh SM_DemoDivider_1...
+[2017.03.25-08.12.06:844][ 73]LogSlate: Took 0.018531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.25-08.12.06:886][ 73]LogStaticMesh: Built static mesh [0.08s] /Game/DemoRoom/Meshes/SM_DemoDivider_1.SM_DemoDivider_1
+[2017.03.25-08.12.06:901][ 73]LogStaticMesh: Building static mesh SM_DemoRoomU...
+[2017.03.25-08.12.06:938][ 73]LogStaticMesh: Built static mesh [0.04s] /Game/DemoRoom/Meshes/SM_DemoRoomU.SM_DemoRoomU
+[2017.03.25-08.12.06:977][ 73]LogStaticMesh: Building static mesh SM_DemoRoomTrimAdd...
+[2017.03.25-08.12.07:064][ 73]LogStaticMesh: Built static mesh [0.10s] /Game/DemoRoom/Meshes/SM_DemoRoomTrimAdd.SM_DemoRoomTrimAdd
+[2017.03.25-08.12.07:087][ 73]LogStaticMesh: Building static mesh SM_DemoDivider_2...
+[2017.03.25-08.12.07:127][ 73]LogStaticMesh: Built static mesh [0.04s] /Game/DemoRoom/Meshes/SM_DemoDivider_2.SM_DemoDivider_2
+[2017.03.25-08.12.07:195][ 73]LogStaticMesh: Building static mesh SM_URoom_Wall...
+[2017.03.25-08.12.07:216][ 73]LogStaticMesh: Built static mesh [0.05s] /Game/DemoRoom/Meshes/SM_URoom_Wall.SM_URoom_Wall
+[2017.03.25-08.12.07:286][ 73]LogStaticMesh: Building static mesh SM_DemoRoomLTrim...
+[2017.03.25-08.12.07:312][ 73]LogStaticMesh: Built static mesh [0.04s] /Game/DemoRoom/Meshes/SM_DemoRoomLTrim.SM_DemoRoomLTrim
+[2017.03.25-08.12.07:339][ 73]LogStaticMesh: Building static mesh SM_DemoRoomClamp...
+[2017.03.25-08.12.07:422][ 73]LogStaticMesh: Built static mesh [0.08s] /Game/DemoRoom/Meshes/SM_DemoRoomClamp.SM_DemoRoomClamp
+[2017.03.25-08.12.07:502][ 73]LogStaticMesh: Building static mesh SM_DemoRoomTrim...
+[2017.03.25-08.12.07:646][ 73]LogStaticMesh: Built static mesh [0.19s] /Game/DemoRoom/Meshes/SM_DemoRoomTrim.SM_DemoRoomTrim
+[2017.03.25-08.12.07:758][ 73]LogMaterial: Missing cached shader map for material M_DemoWall, compiling. 
+[2017.03.25-08.12.07:793][ 73]LogTemp:Display: Added material ShaderMap 0x000001A1E220CB80 with Material 0x000001A1C70CB280 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.08:025][ 73]LogTemp:Display: Kicking off shader compilation for M_DemoWall, GameThreadShaderMap 0x000001A1E220CB80
+[2017.03.25-08.12.08:045][ 73]LogMaterial: Missing cached shader map for material M_LightTube, compiling. 
+[2017.03.25-08.12.08:046][ 73]LogTemp:Display: Added material ShaderMap 0x000001A189AF6400 with Material 0x000001A1C3039000 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.08:051][ 73]LogTemp:Display: Kicking off shader compilation for M_LightTube, GameThreadShaderMap 0x000001A189AF6400
+[2017.03.25-08.12.08:208][ 73]LogTexture:Display: Building textures: T_Pattern_M (AutoDXT, 2048X2048) - 80 MB total VRAM
+[2017.03.25-08.12.10:187][ 73]LogTexture:Display: Building textures: T_UnrealEngineDecal (DXT1, 2048X2048) - 80 MB total VRAM
+[2017.03.25-08.12.10:555][ 73]LogMaterial: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2017.03.25-08.12.10:557][ 73]LogTemp:Display: Added material ShaderMap 0x000001A180BCF580 with Material 0x000001A1CA865D80 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.10:590][ 73]LogTemp:Display: Kicking off shader compilation for M_DemoWallPattern, GameThreadShaderMap 0x000001A180BCF580
+[2017.03.25-08.12.10:848][ 73]LogMaterial: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2017.03.25-08.12.10:850][ 73]LogTemp:Display: Added material ShaderMap 0x000001A180A58480 with Material 0x000001A189A35000 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.10:893][ 73]LogTemp:Display: Kicking off shader compilation for M_DemoWallPattern, GameThreadShaderMap 0x000001A180A58480
+[2017.03.25-08.12.10:935][ 73]LogStaticMesh: Building static mesh SM_DemoRoomU2...
+[2017.03.25-08.12.11:069][ 73]LogStaticMesh: Built static mesh [0.17s] /Game/DemoRoom/Meshes/SM_DemoRoomU2.SM_DemoRoomU2
+[2017.03.25-08.12.11:076][ 73]LogStaticMesh: Building static mesh SM_DemoRoomU_Hole...
+[2017.03.25-08.12.11:174][ 73]LogStaticMesh: Built static mesh [0.10s] /Game/DemoRoom/Meshes/SM_DemoRoomU_Hole.SM_DemoRoomU_Hole
+[2017.03.25-08.12.11:266][ 73]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2017.03.25-08.12.11:267][ 73]LogTemp:Display: Added material ShaderMap 0x000001A18AD51280 with Material 0x000001A1CAB44100 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.11:321][ 73]LogTemp:Display: Kicking off shader compilation for M_Glass, GameThreadShaderMap 0x000001A18AD51280
+[2017.03.25-08.12.11:378][ 73]LogMaterial: Missing cached shader map for material DefaultTextMaterialTranslucentUnlit, compiling. 
+[2017.03.25-08.12.11:379][ 73]LogTemp:Display: Added material ShaderMap 0x000001A18B8B1980 with Material 0x000001A1BC008580 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.11:401][ 73]LogTemp:Display: Kicking off shader compilation for DefaultTextMaterialTranslucentUnlit, GameThreadShaderMap 0x000001A18B8B1980
+[2017.03.25-08.12.12:106][ 73]LogTexture:Display: Building textures: T_RoomTiles_N (BC5, 2048X2048) - 82 MB total VRAM
+[2017.03.25-08.12.12:917][ 73]LogTexture:Display: Building textures: T_RoomTiles_M (DXT1, 2048X2048) - 82 MB total VRAM
+[2017.03.25-08.12.14:356][ 73]LogMaterial: Missing cached shader map for material M_DemoRoomTiles, compiling. 
+[2017.03.25-08.12.14:358][ 73]LogTemp:Display: Added material ShaderMap 0x000001A18B483C80 with Material 0x000001A1C7EF5900 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.14:441][ 73]LogTemp:Display: Kicking off shader compilation for M_DemoRoomTiles, GameThreadShaderMap 0x000001A18B483C80
+[2017.03.25-08.12.14:478][ 73]LogStaticMesh: Building static mesh SM_URoom_Wall2...
+[2017.03.25-08.12.14:494][ 73]LogStaticMesh: Built static mesh [0.05s] /Game/DemoRoom/Meshes/SM_URoom_Wall2.SM_URoom_Wall2
+[2017.03.25-08.12.14:553][ 73]LogStaticMesh: Building static mesh SM_DemoRoomTrim2...
+[2017.03.25-08.12.14:715][ 73]LogStaticMesh: Built static mesh [0.16s] /Game/DemoRoom/Meshes/SM_DemoRoomTrim2.SM_DemoRoomTrim2
+[2017.03.25-08.12.14:869][ 73]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2017.03.25-08.12.14:870][ 73]LogTemp:Display: Added material ShaderMap 0x000001A18DE66E80 with Material 0x000001A1F08BD600 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.14:912][ 73]LogTemp:Display: Kicking off shader compilation for M_Glass, GameThreadShaderMap 0x000001A18DE66E80
+[2017.03.25-08.12.14:917][ 73]LogMaterial: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2017.03.25-08.12.14:919][ 73]LogTemp:Display: Added material ShaderMap 0x000001A18F776400 with Material 0x000001A18E34AC80 to ShaderMapsBeingCompiled
+[2017.03.25-08.12.14:952][ 73]LogTemp:Display: Kicking off shader compilation for M_DemoWallPattern, GameThreadShaderMap 0x000001A18F776400
+[2017.03.25-08.12.14:978][ 73]LogStaticMesh: Building static mesh SM_DemoRoomClamp2...
+[2017.03.25-08.12.15:112][ 73]LogStaticMesh: Built static mesh [0.14s] /Game/DemoRoom/Meshes/SM_DemoRoomClamp2.SM_DemoRoomClamp2
+[2017.03.25-08.12.15:138][ 73]LogStaticMesh: Building static mesh SM_DemoRoomL...
+[2017.03.25-08.12.15:166][ 73]LogStaticMesh: Built static mesh [0.03s] /Game/DemoRoom/Meshes/SM_DemoRoomL.SM_DemoRoomL
+[2017.03.25-08.12.25:210][385]LogTemp:Display: Finished compile of shader map 0x000001A1E220CB80
+[2017.03.25-08.12.25:210][385]LogTemp:Display: Shader map M_DemoWall complete, GameThreadShaderMap 0x000001A1E220CB80, marking material M_DemoWall as finished
+[2017.03.25-08.12.25:210][385]LogTemp:Display: Marking material as finished 0x000001A1C70CB280
+[2017.03.25-08.12.25:472][396]LogTemp:Display: Finished compile of shader map 0x000001A189AF6400
+[2017.03.25-08.12.25:472][396]LogTemp:Display: Shader map M_LightTube complete, GameThreadShaderMap 0x000001A189AF6400, marking material M_LightTube as finished
+[2017.03.25-08.12.25:472][396]LogTemp:Display: Marking material as finished 0x000001A1C3039000
+[2017.03.25-08.12.27:534][521]LogTemp:Display: Finished compile of shader map 0x000001A180BCF580
+[2017.03.25-08.12.27:534][521]LogTemp:Display: Shader map M_DemoWallPattern complete, GameThreadShaderMap 0x000001A180BCF580, marking material M_DemoWallPattern as finished
+[2017.03.25-08.12.27:534][521]LogTemp:Display: Marking material as finished 0x000001A1CA865D80
+[2017.03.25-08.12.29:232][628]LogTemp:Display: Finished compile of shader map 0x000001A180A58480
+[2017.03.25-08.12.29:232][628]LogTemp:Display: Shader map M_DemoWallPattern complete, GameThreadShaderMap 0x000001A180A58480, marking material M_DemoWallPattern as finished
+[2017.03.25-08.12.29:232][628]LogTemp:Display: Marking material as finished 0x000001A189A35000
+[2017.03.25-08.12.33:245][885]LogTemp:Display: Finished compile of shader map 0x000001A18AD51280
+[2017.03.25-08.12.33:245][885]LogTemp:Display: Shader map M_Glass complete, GameThreadShaderMap 0x000001A18AD51280, marking material M_Glass as finished
+[2017.03.25-08.12.33:245][885]LogTemp:Display: Marking material as finished 0x000001A1CAB44100
+[2017.03.25-08.12.35:319][ 10]LogTemp:Display: Finished compile of shader map 0x000001A18B8B1980
+[2017.03.25-08.12.35:319][ 10]LogTemp:Display: Shader map DefaultTextMaterialTranslucentUnlit complete, GameThreadShaderMap 0x000001A18B8B1980, marking material DefaultTextMaterialTranslucentUnlit as finished
+[2017.03.25-08.12.35:319][ 10]LogTemp:Display: Marking material as finished 0x000001A1BC008580
+[2017.03.25-08.12.40:059][288]LogTemp:Display: Finished compile of shader map 0x000001A18B483C80
+[2017.03.25-08.12.40:059][288]LogTemp:Display: Shader map M_DemoRoomTiles complete, GameThreadShaderMap 0x000001A18B483C80, marking material M_DemoRoomTiles as finished
+[2017.03.25-08.12.40:059][288]LogTemp:Display: Marking material as finished 0x000001A1C7EF5900
+[2017.03.25-08.12.42:785][462]LogTemp:Display: Finished compile of shader map 0x000001A18DE66E80
+[2017.03.25-08.12.42:785][462]LogTemp:Display: Shader map M_Glass complete, GameThreadShaderMap 0x000001A18DE66E80, marking material M_Glass as finished
+[2017.03.25-08.12.42:785][462]LogTemp:Display: Marking material as finished 0x000001A1F08BD600
+[2017.03.25-08.12.44:911][648]LogTemp:Display: Finished compile of shader map 0x000001A18F776400
+[2017.03.25-08.12.44:911][648]LogTemp:Display: Shader map M_DemoWallPattern complete, GameThreadShaderMap 0x000001A18F776400, marking material M_DemoWallPattern as finished
+[2017.03.25-08.12.44:911][648]LogTemp:Display: Marking material as finished 0x000001A18E34AC80
+[2017.03.25-08.14.27:005][427]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.25-08.14.34:609][983]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.25-08.14.38:869][298]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.25-08.14.41:334][494]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.25-08.14.44:677][720]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.25-08.15.02:421][210]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-08.15.02:718][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-08.15.03:068][210]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 6:15:02 PM)
+[2017.03.25-08.15.03:153][210]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-08.15.03:461][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.308275s)
+[2017.03.25-08.15.03:786][210]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-08.15.03:853][210]LogPlayLevel: PIE: World Init took: (0.392213s)
+[2017.03.25-08.15.03:868][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.776554s)
+[2017.03.25-08.15.04:202][210]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-08.15.04:298][210]LogInit: FAudioDevice initialized.
+[2017.03.25-08.15.04:760][210]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-08.15.05:023][210]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-01.15.05
+[2017.03.25-08.15.05:063][210]LogWorld: Bringing up level for play took: 0.073910
+[2017.03.25-08.15.07:401][210]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0617 seconds. Added 11 classes and 0 folders.
+[2017.03.25-08.15.07:819][210]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 5.626
+[2017.03.25-08.18.04:480][ 48]MapCheck: New page: Map Check
+[2017.03.25-08.18.04:691][ 48]LightingResults: New page: Lighting Build - Mar 24, 2017, 6:18:04 PM
+[2017.03.25-08.18.05:634][ 48]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.25-08.18.06:317][ 48]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.25-08.18.07:275][ 48]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.25-08.18.10:065][ 48]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.03.25-08.18.10:164][ 48]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.03.25-08.18.16:508][ 48]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.25-08.18.16:508][ 48]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1116
+[2017.03.25-08.18.23:859][ 48]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.25-08.18.23:880][ 48]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.25-08.18.23:880][ 48]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.25-08.18.23:880][ 48]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.25-08.18.23:880][ 48]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.25-08.18.23:880][ 48]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.25-08.18.25:188][ 48]LogEditorBuildUtils: Build time 0:20
+[2017.03.25-08.18.25:356][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass_Inst, compiling. 
+[2017.03.25-08.18.25:359][ 49]LogTemp:Display: Added material ShaderMap 0x000001A1B1245280 with Material 0x000001A18F630D00 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:362][ 49]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Glass_Inst, GameThreadShaderMap 0x000001A1B1245280
+[2017.03.25-08.18.25:382][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass_Inst, compiling. 
+[2017.03.25-08.18.25:406][ 49]LogTemp:Display: Added material ShaderMap 0x000001A1B319A080 with Material 0x000001A18F631000 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:409][ 49]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Glass_Inst, GameThreadShaderMap 0x000001A1B319A080
+[2017.03.25-08.18.25:458][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2017.03.25-08.18.25:459][ 50]LogTemp:Display: Added material ShaderMap 0x000001A1B3199600 with Material 0x000001A1CA5C5F00 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:462][ 50]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Glass, GameThreadShaderMap 0x000001A1B3199600
+[2017.03.25-08.18.25:491][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2017.03.25-08.18.25:492][ 50]LogTemp:Display: Added material ShaderMap 0x000001A1EF3A3200 with Material 0x000001A1CA5C4400 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:495][ 50]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Glass, GameThreadShaderMap 0x000001A1EF3A3200
+[2017.03.25-08.18.25:543][ 51]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_LightTube_Inst, compiling. 
+[2017.03.25-08.18.25:544][ 51]LogTemp:Display: Added material ShaderMap 0x000001A1EF3A0F00 with Material 0x000001A18F630700 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:547][ 51]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_LightTube_Inst, GameThreadShaderMap 0x000001A1EF3A0F00
+[2017.03.25-08.18.25:549][ 51]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_LightTube_Inst, compiling. 
+[2017.03.25-08.18.25:551][ 51]LogTemp:Display: Added material ShaderMap 0x000001A1F03AA780 with Material 0x000001A1D3213D00 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:554][ 51]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_LightTube_Inst, GameThreadShaderMap 0x000001A1F03AA780
+[2017.03.25-08.18.25:597][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DemoWall_Inst, compiling. 
+[2017.03.25-08.18.25:598][ 52]LogTemp:Display: Added material ShaderMap 0x000001A1F03A8800 with Material 0x000001A1D3C21000 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:601][ 52]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_DemoWall_Inst, GameThreadShaderMap 0x000001A1F03A8800
+[2017.03.25-08.18.25:606][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DemoWall_Inst, compiling. 
+[2017.03.25-08.18.25:607][ 52]LogTemp:Display: Added material ShaderMap 0x000001A1F0379600 with Material 0x000001A1C7B4D000 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:610][ 52]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_DemoWall_Inst, GameThreadShaderMap 0x000001A1F0379600
+[2017.03.25-08.18.25:663][ 53]LogTemp:Display: Added shader map 0x000001A1F03A8800 from material 0x000001A1B3007100
+[2017.03.25-08.18.25:771][ 53]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer M_DemoWall_Inst2, linking to other GameThreadShaderMap 0x000001A1F03A8800
+[2017.03.25-08.18.25:773][ 53]LogTemp:Display: Added shader map 0x000001A1F0379600 from material 0x000001A1B3006E00
+[2017.03.25-08.18.25:773][ 53]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer M_DemoWall_Inst2, linking to other GameThreadShaderMap 0x000001A1F0379600
+[2017.03.25-08.18.25:791][ 54]LogTemp:Display: Added shader map 0x000001A1F03A8800 from material 0x000001A1B3005000
+[2017.03.25-08.18.25:791][ 54]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer M_DemoWall_Inst_3, linking to other GameThreadShaderMap 0x000001A1F03A8800
+[2017.03.25-08.18.25:793][ 54]LogTemp:Display: Added shader map 0x000001A1F0379600 from material 0x000001A1B3004A00
+[2017.03.25-08.18.25:793][ 54]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer M_DemoWall_Inst_3, linking to other GameThreadShaderMap 0x000001A1F0379600
+[2017.03.25-08.18.25:797][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_16, compiling. 
+[2017.03.25-08.18.25:798][ 54]LogTemp:Display: Added material ShaderMap 0x000001A1F0378480 with Material 0x000001A1B3004700 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:802][ 54]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_16, GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:860][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_16, compiling. 
+[2017.03.25-08.18.25:861][ 54]LogTemp:Display: Added material ShaderMap 0x000001A1F0426E80 with Material 0x000001A1B3004400 to ShaderMapsBeingCompiled
+[2017.03.25-08.18.25:864][ 54]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_16, GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:885][ 55]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A1B3004D00
+[2017.03.25-08.18.25:885][ 55]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_15, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:888][ 55]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A1B3005300
+[2017.03.25-08.18.25:888][ 55]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_15, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:890][ 55]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A1B3007700
+[2017.03.25-08.18.25:890][ 55]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_14, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:892][ 55]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A1B3007400
+[2017.03.25-08.18.25:892][ 55]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_14, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:912][ 56]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A189AC1F00
+[2017.03.25-08.18.25:912][ 56]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_13, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:914][ 56]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A189AC1C00
+[2017.03.25-08.18.25:914][ 56]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_13, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:916][ 56]LogTemp:Display: Added shader map 0x000001A1F03A8800 from material 0x000001A189AC1900
+[2017.03.25-08.18.25:916][ 56]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer M_DemoWall_Inst_NamePlate, linking to other GameThreadShaderMap 0x000001A1F03A8800
+[2017.03.25-08.18.25:918][ 56]LogTemp:Display: Added shader map 0x000001A1F0379600 from material 0x000001A189AC1600
+[2017.03.25-08.18.25:918][ 56]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer M_DemoWall_Inst_NamePlate, linking to other GameThreadShaderMap 0x000001A1F0379600
+[2017.03.25-08.18.25:921][ 56]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A189AC1300
+[2017.03.25-08.18.25:921][ 56]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_12, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:923][ 56]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A189AC2200
+[2017.03.25-08.18.25:923][ 56]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_12, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:942][ 57]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A189AC3100
+[2017.03.25-08.18.25:942][ 57]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_11, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:944][ 57]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A189AC2E00
+[2017.03.25-08.18.25:944][ 57]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_11, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:946][ 57]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A189AC2B00
+[2017.03.25-08.18.25:946][ 57]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_10, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:948][ 57]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A189AC3A00
+[2017.03.25-08.18.25:948][ 57]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_10, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.25:950][ 57]LogTemp:Display: Added shader map 0x000001A1F0378480 from material 0x000001A1CDE0F400
+[2017.03.25-08.18.25:951][ 57]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_9, linking to other GameThreadShaderMap 0x000001A1F0378480
+[2017.03.25-08.18.25:953][ 57]LogTemp:Display: Added shader map 0x000001A1F0426E80 from material 0x000001A1B3007D00
+[2017.03.25-08.18.25:953][ 57]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer MaterialInstanceDynamic_9, linking to other GameThreadShaderMap 0x000001A1F0426E80
+[2017.03.25-08.18.27:818][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1B319A080
+[2017.03.25-08.18.27:818][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Glass_Inst complete, GameThreadShaderMap 0x000001A1B319A080, marking material FLightmassMaterialRenderer M_Glass_Inst as finished
+[2017.03.25-08.18.27:818][ 58]LogTemp:Display: Marking material as finished 0x000001A18F631000
+[2017.03.25-08.18.27:821][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1B3199600
+[2017.03.25-08.18.27:821][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Glass complete, GameThreadShaderMap 0x000001A1B3199600, marking material FLightmassMaterialRenderer M_Glass as finished
+[2017.03.25-08.18.27:821][ 58]LogTemp:Display: Marking material as finished 0x000001A1CA5C5F00
+[2017.03.25-08.18.27:824][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1B1245280
+[2017.03.25-08.18.27:824][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Glass_Inst complete, GameThreadShaderMap 0x000001A1B1245280, marking material FLightmassMaterialRenderer M_Glass_Inst as finished
+[2017.03.25-08.18.27:824][ 58]LogTemp:Display: Marking material as finished 0x000001A18F630D00
+[2017.03.25-08.18.27:827][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1F0378480
+[2017.03.25-08.18.27:827][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_16 as finished
+[2017.03.25-08.18.27:827][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3004700
+[2017.03.25-08.18.27:829][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_15 as finished
+[2017.03.25-08.18.27:829][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3004D00
+[2017.03.25-08.18.27:829][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_14 as finished
+[2017.03.25-08.18.27:829][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3007700
+[2017.03.25-08.18.27:830][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_13 as finished
+[2017.03.25-08.18.27:830][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC1F00
+[2017.03.25-08.18.27:831][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_12 as finished
+[2017.03.25-08.18.27:831][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC1300
+[2017.03.25-08.18.27:832][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_11 as finished
+[2017.03.25-08.18.27:832][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC3100
+[2017.03.25-08.18.27:833][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_10 as finished
+[2017.03.25-08.18.27:833][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC2B00
+[2017.03.25-08.18.27:833][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0378480, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_9 as finished
+[2017.03.25-08.18.27:833][ 58]LogTemp:Display: Marking material as finished 0x000001A1CDE0F400
+[2017.03.25-08.18.27:836][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1F0426E80
+[2017.03.25-08.18.27:836][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_16 as finished
+[2017.03.25-08.18.27:836][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3004400
+[2017.03.25-08.18.27:837][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_15 as finished
+[2017.03.25-08.18.27:837][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3005300
+[2017.03.25-08.18.27:838][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_14 as finished
+[2017.03.25-08.18.27:838][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3007400
+[2017.03.25-08.18.27:838][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_13 as finished
+[2017.03.25-08.18.27:838][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC1C00
+[2017.03.25-08.18.27:839][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_12 as finished
+[2017.03.25-08.18.27:839][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC2200
+[2017.03.25-08.18.27:840][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_11 as finished
+[2017.03.25-08.18.27:840][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC2E00
+[2017.03.25-08.18.27:840][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_10 as finished
+[2017.03.25-08.18.27:840][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC3A00
+[2017.03.25-08.18.27:841][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_16 complete, GameThreadShaderMap 0x000001A1F0426E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_9 as finished
+[2017.03.25-08.18.27:841][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3007D00
+[2017.03.25-08.18.27:844][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1F0379600
+[2017.03.25-08.18.27:844][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F0379600, marking material FLightmassMaterialRenderer M_DemoWall_Inst as finished
+[2017.03.25-08.18.27:844][ 58]LogTemp:Display: Marking material as finished 0x000001A1C7B4D000
+[2017.03.25-08.18.27:845][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F0379600, marking material FLightmassMaterialRenderer M_DemoWall_Inst2 as finished
+[2017.03.25-08.18.27:845][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3006E00
+[2017.03.25-08.18.27:846][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F0379600, marking material FLightmassMaterialRenderer M_DemoWall_Inst_3 as finished
+[2017.03.25-08.18.27:846][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3004A00
+[2017.03.25-08.18.27:846][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F0379600, marking material FLightmassMaterialRenderer M_DemoWall_Inst_NamePlate as finished
+[2017.03.25-08.18.27:846][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC1600
+[2017.03.25-08.18.27:850][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1F03A8800
+[2017.03.25-08.18.27:850][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F03A8800, marking material FLightmassMaterialRenderer M_DemoWall_Inst as finished
+[2017.03.25-08.18.27:850][ 58]LogTemp:Display: Marking material as finished 0x000001A1D3C21000
+[2017.03.25-08.18.27:851][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F03A8800, marking material FLightmassMaterialRenderer M_DemoWall_Inst2 as finished
+[2017.03.25-08.18.27:851][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3007100
+[2017.03.25-08.18.27:851][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F03A8800, marking material FLightmassMaterialRenderer M_DemoWall_Inst_3 as finished
+[2017.03.25-08.18.27:851][ 58]LogTemp:Display: Marking material as finished 0x000001A1B3005000
+[2017.03.25-08.18.27:852][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_DemoWall_Inst complete, GameThreadShaderMap 0x000001A1F03A8800, marking material FLightmassMaterialRenderer M_DemoWall_Inst_NamePlate as finished
+[2017.03.25-08.18.27:852][ 58]LogTemp:Display: Marking material as finished 0x000001A189AC1900
+[2017.03.25-08.18.27:854][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1F03AA780
+[2017.03.25-08.18.27:854][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_LightTube_Inst complete, GameThreadShaderMap 0x000001A1F03AA780, marking material FLightmassMaterialRenderer M_LightTube_Inst as finished
+[2017.03.25-08.18.27:854][ 58]LogTemp:Display: Marking material as finished 0x000001A1D3213D00
+[2017.03.25-08.18.27:856][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1EF3A0F00
+[2017.03.25-08.18.27:856][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_LightTube_Inst complete, GameThreadShaderMap 0x000001A1EF3A0F00, marking material FLightmassMaterialRenderer M_LightTube_Inst as finished
+[2017.03.25-08.18.27:856][ 58]LogTemp:Display: Marking material as finished 0x000001A18F630700
+[2017.03.25-08.18.27:859][ 58]LogTemp:Display: Finished compile of shader map 0x000001A1EF3A3200
+[2017.03.25-08.18.27:859][ 58]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Glass complete, GameThreadShaderMap 0x000001A1EF3A3200, marking material FLightmassMaterialRenderer M_Glass as finished
+[2017.03.25-08.18.27:859][ 58]LogTemp:Display: Marking material as finished 0x000001A1CA5C4400
+[2017.03.25-08.18.30:002][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-08.18.34:926][370]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-08.18.34:948][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-08.18.34:948][370]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 6:18:34 PM)
+[2017.03.25-08.18.34:949][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-08.18.34:961][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011248s)
+[2017.03.25-08.18.34:965][370]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-08.18.34:965][370]LogPlayLevel: PIE: World Init took: (0.004216s)
+[2017.03.25-08.18.34:966][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.016523s)
+[2017.03.25-08.18.35:011][370]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-08.18.35:056][370]LogInit: FAudioDevice initialized.
+[2017.03.25-08.18.35:091][370]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-08.18.35:095][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-01.18.35
+[2017.03.25-08.18.35:096][370]LogWorld: Bringing up level for play took: 0.003187
+[2017.03.25-08.18.35:100][370]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.918
+[2017.03.25-08.18.43:925][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-08.18.46:138][158]Job is a success!
+[2017.03.25-08.19.00:406][385]MapCheck: New page: Map Check
+[2017.03.25-08.19.00:450][385]LogEditorBuildUtils: Build time 0:00
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64) - 105 MB total VRAM
+[2017.03.25-08.19.09:247][ 45]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64) - 105 MB total VRAM
+[2017.03.25-08.19.09:447][ 45]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X32) - 105 MB total VRAM
+[2017.03.25-08.19.09:448][ 45]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32) - 105 MB total VRAM
+[2017.03.25-08.19.09:728][ 45]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024) - 105 MB total VRAM
+[2017.03.25-08.19.11:402][ 45]Lightmass on ULTIMATESKIBUM: 40.6 sec total, 341 ms importing, 114 ms setup, 2.09 sec photons, 36.4 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 4:14 min total, 1:09 min processing.
+[2017.03.25-08.19.11:473][ 45]LogStaticLightingSystem: Illumination: 46.1 sec (1.92 sec encoding lightmaps, 480 ms encoding shadowmaps)
+[2017.03.25-08.19.11:473][ 45]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2017.03.25-08.19.11:473][ 45]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.03.25-08.19.11:893][ 45]DumpUnbuiltLightIteractions
+[2017.03.25-08.19.11:893][ 45]Lights with unbuilt interactions: 0
+[2017.03.25-08.19.11:893][ 45]
+[2017.03.25-08.19.11:893][ 45]Primitives with unbuilt interactions: 0
+[2017.03.25-08.19.11:940][ 46]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.25-08.19.11:940][ 46]MapCheck: New page: CollectionLevel - Mar 24, 2017, 6:19:11 PM
+[2017.03.25-08.19.18:496][ 46]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 6,547.893ms to complete.
+[2017.03.25-08.19.18:505][ 46]LogEditorViewport: Clicking on Actor (context menu): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-08.19.20:191][157]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-08.19.22:135][358]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-08.19.22:151][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-08.19.22:151][358]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 6:19:22 PM)
+[2017.03.25-08.19.22:152][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-08.19.22:156][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004239s)
+[2017.03.25-08.19.22:157][358]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-08.19.22:157][358]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2017.03.25-08.19.22:157][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.005781s)
+[2017.03.25-08.19.22:196][358]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-08.19.22:248][358]LogInit: FAudioDevice initialized.
+[2017.03.25-08.19.22:283][358]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-08.19.22:287][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-01.19.22
+[2017.03.25-08.19.22:287][358]LogWorld: Bringing up level for play took: 0.002293
+[2017.03.25-08.19.22:290][358]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.107
+[2017.03.25-08.20.06:035][776]LogSavePackage: Save=167.31ms
+[2017.03.25-08.20.06:035][776]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel72C71619493EFCFADFEC61863E63CA34.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2017.03.25-08.20.06:136][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2017.03.25-08.20.06:240][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset" SILENT=true
+[2017.03.25-08.20.06:744][776]LogSavePackage: Save=501.25ms
+[2017.03.25-08.20.06:744][776]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_BuiltData2096CB2D4D911B8A549B458D75BDB26C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2017.03.25-08.20.06:748][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2017.03.25-08.21.03:027][210]LogSlate: Took 0.058571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.25-08.22.00:966][562]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector Win64 Development -editorrecompile "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" -invalidatemakefilesonly
+[2017.03.25-08.22.04:740][562]Invalidating makefiles only in this run.
+[2017.03.25-08.22.05:353][562]Recompiling BatteryCollector...
+[2017.03.25-08.22.05:353][562]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 875 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-08.24.31:005][562]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 6:24:30 PM
+[2017.03.25-08.24.31:084][562]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.03.25-08.24.31:084][562]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-08.24.31:084][562]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.25-08.24.31:084][562]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 6.3982544 seconds
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info Pickup.cpp
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info BatteryCollector.generated.cpp
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info [3/4] Link UE4Editor-BatteryCollector-875.dll
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info [4/4] Link UE4Editor-BatteryCollector-875.lib
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-875.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-875.exp
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-875.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-875.suppressed.exp
+[2017.03.25-08.24.31:103][562]CompilerResultsLog: Info Total build time: 144.98 seconds (Local executor: 66.24 seconds)
+[2017.03.25-08.24.31:126][562]LogMainFrame: MainFrame: Module compiling took 145.933 seconds
+[2017.03.25-08.24.34:641][562]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-08.24.34:858][562]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0296 seconds. Added 3 classes and 2 folders.
+[2017.03.25-08.24.34:867][562]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.03.25-08.24.39:030][562]LogContentBrowser: Native class hierarchy populated in 0.3670 seconds. Added 2250 classes and 459 folders.
+[2017.03.25-08.24.39:616][562]Display: HotReload took 154.7s.
+[2017.03.25-08.24.39:617][562]Warning: HotReload operation took 154.7s.
+[2017.03.25-08.24.57:723][562]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/Pickup.h'
+[2017.03.25-08.24.59:204][562]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/Pickup.cpp'
+[2017.03.25-08.24.59:702][562]LogHotReload: New module detected: UE4Editor-BatteryCollector-875.dll
+[2017.03.25-08.25.00:422][563]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-08.25.00:601][563]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0024 seconds. Added 3 classes and 2 folders.
+[2017.03.25-08.25.00:603][563]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.03.25-08.25.00:626][563]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2250 classes and 459 folders.
+[2017.03.25-08.25.00:731][563]Display: HotReload took  0.3s.
+[2017.03.25-08.34.24:980][642]LogHttp:Warning: 000001A18124CA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.25-08.34.24:980][642]LogHttp:Warning: 000001A18124CA00: libcurl info message cache 0 (Connection 22 seems to be dead!)
+[2017.03.25-08.34.24:980][642]LogHttp:Warning: 000001A18124CA00: libcurl info message cache 1 (Closing connection 22)
+[2017.03.25-08.34.24:980][642]LogHttp:Warning: 000001A18124CA00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.03.25-08.34.24:980][642]LogHttp:Warning: 000001A18124CA00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.25-08.34.24:980][642]LogHttp:Warning: 000001A18124CA00: libcurl info message cache 4 (Closing connection 23)
+[2017.03.25-08.39.29:570][548]LogHotReload: New module detected: UE4Editor-BatteryCollector-6966.dll
+[2017.03.25-08.39.29:773][549]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-08.39.36:893][549]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-08.39.37:267][549]LogHotReload: Re-instancing Pickup after hot-reload.
+[2017.03.25-08.39.38:619][549]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.1302 seconds. Added 3 classes and 2 folders.
+[2017.03.25-08.39.38:622][549]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.03.25-08.39.38:912][549]LogContentBrowser: Native class hierarchy populated in 0.1521 seconds. Added 2250 classes and 459 folders.
+[2017.03.25-08.39.39:021][549]Display: HotReload took  9.2s.
+[2017.03.25-09.13.04:460][627]Recompiling BatteryCollector...
+[2017.03.25-09.13.04:461][627]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 9591 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-09.13.04:930][627]Warning: Starting HotReload took  2.0s.
+[2017.03.25-09.13.39:486][804]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 7:13:39 PM
+[2017.03.25-09.13.39:596][804]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-09.13.39:606][804]CompilerResultsLog: Info Target is up to date
+[2017.03.25-09.13.39:606][804]CompilerResultsLog: Info Total build time: 31.84 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.03.25-09.13.39:620][804]LogMainFrame: MainFrame: Module compiling took 35.821 seconds
+[2017.03.25-09.13.40:315][804]LogContentBrowser: Native class hierarchy populated in 0.1709 seconds. Added 2250 classes and 459 folders.
+[2017.03.25-09.13.40:361][804]Display: HotReload took 37.5s.
+[2017.03.25-09.14.20:262][ 18]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-09.14.20:878][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-09.14.20:900][ 18]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 7:14:20 PM)
+[2017.03.25-09.14.20:919][ 18]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-09.14.21:546][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.626800s)
+[2017.03.25-09.14.21:722][ 18]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-09.14.21:760][ 18]LogPlayLevel: PIE: World Init took: (0.214182s)
+[2017.03.25-09.14.21:760][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.841493s)
+[2017.03.25-09.14.22:047][ 18]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-09.14.22:133][ 18]LogInit: FAudioDevice initialized.
+[2017.03.25-09.14.22:305][ 18]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-09.14.22:564][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-02.14.22
+[2017.03.25-09.14.22:574][ 18]LogWorld: Bringing up level for play took: 0.242770
+[2017.03.25-09.14.22:867][ 18]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 2.685
+[2017.03.25-09.25.44:054][768]Recompiling BatteryCollector...
+[2017.03.25-09.25.44:078][768]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 9371 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-09.25.44:746][768]Warning: Starting HotReload took  0.8s.
+[2017.03.25-09.27.19:745][750]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.25-09.27.37:270][750]LogEditorViewport: Clicking on Actor (context menu): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-09.27.44:551][751]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 7:27:44 PM
+[2017.03.25-09.27.44:559][751]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 6.1575489 seconds
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info Pickup.cpp
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info BatteryCollector.generated.cpp
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info [4/4] Link UE4Editor-BatteryCollector-9371.lib
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info [3/4] Link UE4Editor-BatteryCollector-9371.dll
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9371.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9371.exp
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9371.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9371.suppressed.exp
+[2017.03.25-09.27.44:563][751]CompilerResultsLog: Info Total build time: 116.66 seconds (Local executor: 86.52 seconds)
+[2017.03.25-09.27.44:563][751]LogMainFrame: MainFrame: Module compiling took 120.540 seconds
+[2017.03.25-09.27.47:127][751]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-09.27.47:134][751]LogClass: Function IsActive is new.
+[2017.03.25-09.27.47:134][751]LogClass: Function SetActive is new.
+[2017.03.25-09.27.47:526][751]LogHotReload: Re-instancing Pickup after hot-reload.
+[2017.03.25-09.27.50:880][751]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0896 seconds. Added 3 classes and 2 folders.
+[2017.03.25-09.27.50:888][751]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.03.25-09.27.51:068][751]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 2250 classes and 459 folders.
+[2017.03.25-09.27.51:156][751]Display: HotReload took 127.2s.
+[2017.03.25-09.27.51:859][752]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.25-09.27.54:468][752]LogSavePackage: Save=313.71ms
+[2017.03.25-09.27.54:468][752]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_Auto1F61385A645AB85F58A95C7AE9D097F95.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto1.umap'
+[2017.03.25-09.27.54:470][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto1.umap
+[2017.03.25-09.27.54:593][752]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 1.096
+[2017.03.25-09.27.54:593][752]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.096
+[2017.03.25-09.27.56:362][788]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.25-09.28.30:664][366]LogSlate: Took 0.057090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.25-09.29.04:639][925]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-09.29.21:024][ 65]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/Pickup.h'
+[2017.03.25-09.29.21:082][ 65]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/Pickup.cpp'
+[2017.03.25-09.30.07:065][255]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0190 seconds. Added 112 classes and 0 folders.
+[2017.03.25-09.30.22:666][256]LogRenderer: Reallocating scene render targets to support 1164x708 NumSamples 1 (Frame:51608).
+[2017.03.25-09.30.34:484][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pickup" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset" SILENT=true
+[2017.03.25-09.30.34:529][325]LogSavePackage: Save=43.69ms
+[2017.03.25-09.30.34:529][325]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BP_Pickup827D4BC545020CBE81EAFD8754F08C4A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset'
+[2017.03.25-09.30.34:557][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset
+[2017.03.25-09.31.19:919][391]BlueprintLog: New page: Compile BP_Pickup
+[2017.03.25-09.31.22:321][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pickup" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset" SILENT=true
+[2017.03.25-09.31.22:472][438]LogSavePackage: Save=141.71ms
+[2017.03.25-09.31.22:472][438]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BP_Pickup0E8B11134280DA2BCCC813948B548EAD.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset'
+[2017.03.25-09.31.22:485][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset
+[2017.03.25-09.34.21:933][440]BlueprintLog: New page: Compile BP_Pickup
+[2017.03.25-09.34.22:660][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pickup" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset" SILENT=true
+[2017.03.25-09.34.22:717][475]LogSavePackage: Save=28.28ms
+[2017.03.25-09.34.22:717][475]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BP_Pickup6695BCA441DE20C5736FCD97316B4625.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset'
+[2017.03.25-09.34.22:720][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Pickup.uasset
+[2017.03.25-09.35.45:305][204]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector Win64 Development -editorrecompile "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" -invalidatemakefilesonly
+[2017.03.25-09.35.50:143][204]Invalidating makefiles only in this run.
+[2017.03.25-09.35.50:484][204]Recompiling BatteryCollector...
+[2017.03.25-09.35.50:484][204]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 9166 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-09.38.36:965][204]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 7:38:36 PM
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 11.3754343 seconds
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info BatteryCollector.generated.cpp
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info BatteryPickup.cpp
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info [3/4] Link UE4Editor-BatteryCollector-9166.dll
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info [4/4] Link UE4Editor-BatteryCollector-9166.lib
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9166.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9166.exp
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9166.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-9166.suppressed.exp
+[2017.03.25-09.38.36:966][204]CompilerResultsLog: Info Total build time: 165.74 seconds (Local executor: 97.39 seconds)
+[2017.03.25-09.38.36:967][204]LogMainFrame: MainFrame: Module compiling took 166.489 seconds
+[2017.03.25-09.38.38:419][204]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-09.38.38:429][204]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0043 seconds. Added 4 classes and 2 folders.
+[2017.03.25-09.38.38:433][204]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.03.25-09.38.39:244][204]LogContentBrowser: Native class hierarchy populated in 0.0450 seconds. Added 2251 classes and 459 folders.
+[2017.03.25-09.38.39:250][204]Display: HotReload took 169.0s.
+[2017.03.25-09.38.39:252][204]Warning: HotReload operation took 169.0s.
+[2017.03.25-09.38.43:221][204]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/BatteryPickup.h'
+[2017.03.25-09.38.43:703][204]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/BatteryPickup.cpp'
+[2017.03.25-09.38.43:773][204]LogHotReload: New module detected: UE4Editor-BatteryCollector-9166.dll
+[2017.03.25-09.38.44:031][205]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-09.38.44:403][205]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0025 seconds. Added 4 classes and 2 folders.
+[2017.03.25-09.38.44:406][205]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.03.25-09.38.44:900][205]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2251 classes and 459 folders.
+[2017.03.25-09.38.44:928][205]Display: HotReload took  0.9s.
+[2017.03.25-09.41.00:057][941]LogSavePackage: Save=192.05ms
+[2017.03.25-09.41.00:057][941]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_Auto22F5D8B204414F66909D64E950A577BED.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto2.umap'
+[2017.03.25-09.41.00:058][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto2.umap
+[2017.03.25-09.41.00:083][941]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 1.190
+[2017.03.25-09.41.00:083][941]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.190
+[2017.03.25-10.19.06:411][682]Recompiling BatteryCollector...
+[2017.03.25-10.19.06:442][682]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 560 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-10.19.07:832][682]Warning: Starting HotReload took  2.0s.
+[2017.03.25-10.20.59:656][955]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 8:20:59 PM
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 6.7963755 seconds
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info BatteryCollector.generated.cpp
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info BatteryPickup.cpp
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info [3/4] Link UE4Editor-BatteryCollector-560.dll
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info [4/4] Link UE4Editor-BatteryCollector-560.lib
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-560.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-560.exp
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-560.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-560.suppressed.exp
+[2017.03.25-10.20.59:741][955]CompilerResultsLog: Info Total build time: 108.05 seconds (Local executor: 66.96 seconds)
+[2017.03.25-10.20.59:746][955]LogMainFrame: MainFrame: Module compiling took 113.712 seconds
+[2017.03.25-10.21.10:211][955]LogHotReload: Re-instancing BatteryPickup after hot-reload.
+[2017.03.25-10.21.11:020][955]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0147 seconds. Added 4 classes and 2 folders.
+[2017.03.25-10.21.11:024][955]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.03.25-10.21.13:697][955]LogContentBrowser: Native class hierarchy populated in 0.0576 seconds. Added 2251 classes and 459 folders.
+[2017.03.25-10.21.13:727][955]Display: HotReload took 127.9s.
+[2017.03.25-10.22.15:828][ 20]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.03.25-10.23.35:493][995]LogStaticMesh: Building static mesh SM_Battery_Medium...
+[2017.03.25-10.23.35:888][995]LogStaticMesh: Built static mesh [0.63s] /Game/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.SM_Battery_Medium
+[2017.03.25-10.23.36:336][995]LogTexture:Display: Building textures: T_Battery_M (AutoDXT, 512X512) - 136 MB total VRAM
+[2017.03.25-10.23.37:146][995]LogMaterial: Missing cached shader map for material M_Battery, compiling. 
+[2017.03.25-10.23.37:600][995]LogTemp:Display: Added material ShaderMap 0x000001A22DDDE080 with Material 0x000001A22DDF5600 to ShaderMapsBeingCompiled
+[2017.03.25-10.23.38:156][995]LogTemp:Display: Kicking off shader compilation for M_Battery, GameThreadShaderMap 0x000001A22DDDE080
+[2017.03.25-10.23.49:171][295]LogTemp:Display: Finished compile of shader map 0x000001A22DDDE080
+[2017.03.25-10.23.49:171][295]LogTemp:Display: Shader map M_Battery complete, GameThreadShaderMap 0x000001A22DDDE080, marking material M_Battery as finished
+[2017.03.25-10.23.49:172][295]LogTemp:Display: Marking material as finished 0x000001A22DDF5600
+[2017.03.25-10.24.25:394][164]LogHttp:Warning: 000001A1F0A46C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.25-10.24.25:394][164]LogHttp:Warning: 000001A1F0A46C80: libcurl info message cache 0 (Connection 69 seems to be dead!)
+[2017.03.25-10.24.25:394][164]LogHttp:Warning: 000001A1F0A46C80: libcurl info message cache 1 (Closing connection 69)
+[2017.03.25-10.24.25:394][164]LogHttp:Warning: 000001A1F0A46C80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.03.25-10.24.25:394][164]LogHttp:Warning: 000001A1F0A46C80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.25-10.24.25:394][164]LogHttp:Warning: 000001A1F0A46C80: libcurl info message cache 4 (Closing connection 70)
+[2017.03.25-10.24.46:837][289]BlueprintLog: New page: Compile BP_Battery
+[2017.03.25-10.24.48:523][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Battery" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Battery.uasset" SILENT=true
+[2017.03.25-10.24.48:638][322]LogSavePackage: Save=112.38ms
+[2017.03.25-10.24.48:638][322]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/BP_BatteryDE30E59F41874F3C4832B284338E82BF.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Battery.uasset'
+[2017.03.25-10.24.48:644][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Blueprints/BP_Battery.uasset
+[2017.03.25-10.25.08:965][786]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-10.25.09:097][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-10.25.09:201][786]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 8:25:09 PM)
+[2017.03.25-10.25.09:248][786]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-10.25.09:822][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.574194s)
+[2017.03.25-10.25.09:978][786]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-10.25.10:316][786]LogPlayLevel: PIE: World Init took: (0.494431s)
+[2017.03.25-10.25.10:333][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (1.085558s)
+[2017.03.25-10.25.11:116][786]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-10.25.11:591][786]LogInit: FAudioDevice initialized.
+[2017.03.25-10.25.12:138][786]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-10.25.12:822][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-03.25.12
+[2017.03.25-10.25.12:862][786]LogWorld: Bringing up level for play took: 0.223385
+[2017.03.25-10.25.15:424][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 7.241
+[2017.03.25-10.25.56:967][956]LogRenderer: Reallocating scene render targets to support 1336x916 NumSamples 1 (Frame:333538).
+[2017.03.25-10.28.46:250][818]LogSavePackage: Save=183.72ms
+[2017.03.25-10.28.46:250][818]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/SM_Battery_MediumA16EF5734761A8E567DE3B92C812C33E.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset'
+[2017.03.25-10.28.46:254][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset
+[2017.03.25-10.29.12:411][559]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-10.29.42:480][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-10.29.42:481][559]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 8:29:42 PM)
+[2017.03.25-10.29.42:481][559]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-10.29.42:501][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019448s)
+[2017.03.25-10.29.42:504][559]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-10.29.42:504][559]LogPlayLevel: PIE: World Init took: (0.003556s)
+[2017.03.25-10.29.42:505][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.023827s)
+[2017.03.25-10.29.42:599][559]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-10.29.42:626][559]LogInit: FAudioDevice initialized.
+[2017.03.25-10.29.42:656][559]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-10.29.42:661][559]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-03.29.42
+[2017.03.25-10.29.42:661][559]LogWorld: Bringing up level for play took: 0.002978
+[2017.03.25-10.29.42:679][559]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.497
+[2017.03.25-10.32.06:310][832]LogSavePackage: Save=17.63ms
+[2017.03.25-10.32.06:310][832]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/SM_Battery_Medium83B7E9204FFDB313F6377A84175AB90A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset'
+[2017.03.25-10.32.06:313][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset
+[2017.03.25-10.32.09:820][ 97]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-10.32.09:837][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-10.32.09:837][ 97]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 8:32:09 PM)
+[2017.03.25-10.32.09:837][ 97]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-10.32.09:880][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042710s)
+[2017.03.25-10.32.09:985][ 97]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-10.32.09:985][ 97]LogPlayLevel: PIE: World Init took: (0.105272s)
+[2017.03.25-10.32.09:985][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.148220s)
+[2017.03.25-10.32.10:109][ 97]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-10.32.10:135][ 97]LogInit: FAudioDevice initialized.
+[2017.03.25-10.32.10:168][ 97]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-10.32.10:171][ 97]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-03.32.10
+[2017.03.25-10.32.10:172][ 97]LogWorld: Bringing up level for play took: 0.002118
+[2017.03.25-10.32.10:201][ 97]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.018
+[2017.03.25-10.34.44:070][478]LogSavePackage: Save=176.02ms
+[2017.03.25-10.34.44:070][478]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_Auto33DC87C96457FD939F4BE989825299D6E.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto3.umap'
+[2017.03.25-10.34.44:072][478]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto3.umap
+[2017.03.25-10.34.44:093][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 0.424
+[2017.03.25-10.34.44:093][478]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.424
+[2017.03.25-10.36.22:994][537]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector Win64 Development -editorrecompile "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" -invalidatemakefilesonly
+[2017.03.25-10.36.31:683][537]Invalidating makefiles only in this run.
+[2017.03.25-10.36.32:122][537]Recompiling BatteryCollector...
+[2017.03.25-10.36.32:122][537]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 2692 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-10.40.49:641][537]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 8:40:49 PM
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 9.0162866 seconds
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info BatteryCollector.generated.cpp
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info SpawnVol.cpp
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info [3/4] Link UE4Editor-BatteryCollector-2692.dll
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info [4/4] Link UE4Editor-BatteryCollector-2692.lib
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2692.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2692.exp
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2692.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-2692.suppressed.exp
+[2017.03.25-10.40.50:009][537]CompilerResultsLog: Info Total build time: 255.91 seconds (Local executor: 120.00 seconds)
+[2017.03.25-10.40.50:048][537]LogMainFrame: MainFrame: Module compiling took 257.932 seconds
+[2017.03.25-10.41.02:502][537]LogClass: Could not find existing class SpawnVol in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-10.41.03:002][537]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.2365 seconds. Added 5 classes and 2 folders.
+[2017.03.25-10.41.03:092][537]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.03.25-10.41.44:391][537]LogContentBrowser: Native class hierarchy populated in 0.8961 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-10.41.44:695][537]Display: HotReload took 312.7s.
+[2017.03.25-10.41.45:620][537]Warning: HotReload operation took 313.6s.
+[2017.03.25-10.41.50:572][537]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/SpawnVol.h'
+[2017.03.25-10.42.05:950][537]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Source/BatteryCollector/SpawnVol.cpp'
+[2017.03.25-10.42.12:241][537]LogHotReload: New module detected: UE4Editor-BatteryCollector-2692.dll
+[2017.03.25-10.42.16:568][538]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-10.42.24:738][538]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0024 seconds. Added 5 classes and 2 folders.
+[2017.03.25-10.42.24:741][538]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.03.25-10.42.25:682][538]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-10.42.25:826][538]Display: HotReload took  9.3s.
+[2017.03.25-10.51.25:395][145]LogHttp:Warning: 000001A1C8247580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.25-10.51.25:395][145]LogHttp:Warning: 000001A1C8247580: libcurl info message cache 0 (Connection 78 seems to be dead!)
+[2017.03.25-10.51.25:395][145]LogHttp:Warning: 000001A1C8247580: libcurl info message cache 1 (Closing connection 78)
+[2017.03.25-10.51.25:395][145]LogHttp:Warning: 000001A1C8247580: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.03.25-10.51.25:395][145]LogHttp:Warning: 000001A1C8247580: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.25-10.51.25:395][145]LogHttp:Warning: 000001A1C8247580: libcurl info message cache 4 (Closing connection 79)
+[2017.03.25-11.03.22:972][255]LogHotReload: New module detected: UE4Editor-BatteryCollector-5411.dll
+[2017.03.25-11.03.23:038][256]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-11.03.40:319][256]LogClass: Could not find existing class SpawnVol in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-11.03.40:319][256]LogClass: Function GetRandomPointInVol is new.
+[2017.03.25-11.03.40:896][256]LogHotReload: Re-instancing SpawnVol after hot-reload.
+[2017.03.25-11.03.43:290][256]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0790 seconds. Added 5 classes and 2 folders.
+[2017.03.25-11.03.43:354][256]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.03.25-11.03.44:597][256]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-11.03.44:807][256]Display: HotReload took 21.8s.
+[2017.03.25-11.21.36:686][458]LogHotReload: New module detected: UE4Editor-BatteryCollector-2108.dll
+[2017.03.25-11.21.36:898][459]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-11.21.59:978][459]LogClass: Could not find existing class SpawnVol in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-11.21.59:998][459]LogClass: Function GetRandomPointInVol is new.
+[2017.03.25-11.22.00:430][459]LogHotReload: Re-instancing SpawnVol after hot-reload.
+[2017.03.25-11.22.02:378][459]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0333 seconds. Added 5 classes and 2 folders.
+[2017.03.25-11.22.02:387][459]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.03.25-11.22.04:117][459]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-11.22.04:545][459]Display: HotReload took 27.6s.
+[2017.03.25-11.33.26:665][526]Recompiling BatteryCollector...
+[2017.03.25-11.33.26:668][526]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe BatteryCollector -ModuleWithSuffix BatteryCollector 4214 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/BatteryCollector.uproject" ]
+[2017.03.25-11.33.27:083][526]Warning: Starting HotReload took  0.9s.
+[2017.03.25-11.35.42:804][105]CompilerResultsLog: New page: Compilation - Mar 24, 2017, 9:35:42 PM
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info Parsing headers for BatteryCollectorEditor
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\BatteryCollector.uproject" "C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info Reflection code generated for BatteryCollectorEditor in 5.464188 seconds
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info BatteryCollector.generated.cpp
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info SpawnVol.cpp
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info [3/4] Link UE4Editor-BatteryCollector-4214.dll
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info [4/4] Link UE4Editor-BatteryCollector-4214.lib
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-4214.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-4214.exp
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-4214.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BatteryCollector-4214.suppressed.exp
+[2017.03.25-11.35.42:944][105]CompilerResultsLog: Info Total build time: 132.21 seconds (Local executor: 103.77 seconds)
+[2017.03.25-11.35.42:944][105]LogMainFrame: MainFrame: Module compiling took 136.341 seconds
+[2017.03.25-11.35.58:546][105]LogClass: Could not find existing class SpawnVol in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-11.35.58:546][105]LogClass: Function GetRandomPointInVol is new.
+[2017.03.25-11.35.58:789][105]LogHotReload: Re-instancing SpawnVol after hot-reload.
+[2017.03.25-11.35.59:261][105]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0034 seconds. Added 5 classes and 2 folders.
+[2017.03.25-11.35.59:289][105]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.03.25-11.36.00:650][105]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-11.36.00:655][105]Display: HotReload took 154.5s.
+[2017.03.25-11.37.21:756][745]LogEditor: Attempting to add actor of class 'SpawnVol' to level at 2130.00,1220.00,-70.00
+[2017.03.25-11.37.24:796][751]LogEditor: Attempting to add actor of class 'SpawnVol' to level at 2140.00,1090.00,-70.00
+[2017.03.25-11.37.51:429][814]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.53:907][  8]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.54:776][102]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.55:461][179]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.56:844][333]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.57:805][436]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.59:106][575]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.37.59:692][640]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.38.00:855][768]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.38.24:375][169]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.39.41:568][885]LogEditor: Attempting to add actor of class 'SpawnVol' to level at 2350.00,900.00,-70.00
+[2017.03.25-11.39.42:318][947]LogEditor: Attempting to add actor of class 'SpawnVol' to level at 260.00,-1580.00,640.00
+[2017.03.25-11.39.48:804][569]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.39.50:045][693]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.39.50:680][760]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2017.03.25-11.42.54:062][143]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a1d3336878 [can pipeline])
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 1 (Re-using existing connection! (#98) with host datarouter.ol.epicgames.com)
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.192.111.22) port 443 (#98))
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 3 (upload completely sent off: 337 out of 337 bytes)
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 6 (Closing connection 98)
+[2017.03.25-11.43.33:234][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0AA75A09-4407-49B1-D327-3CBE1E7A3F23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3c53aeb14f8381cf589af9a05a045162%7C191bcd9e71e141a7a207a951597e632a%7C6892023d-28ec-4f87-8958-26e7706dbce6&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.03.25-11.43.33:238][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.25-11.43.33:238][648]LogHttp:Warning: 000001A190914580: libcurl info message cache 9 (Closing connection 99)
+[2017.03.25-11.44.13:808][997]LogHttp:Warning: 000001A190915180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.25-11.44.13:808][997]LogHttp:Warning: 000001A190915180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.25-11.44.13:808][997]LogHttp:Warning: 000001A190915180: libcurl info message cache 1 (Closing connection 100)
+[2017.03.25-11.44.22:282][350]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-11.44.22:539][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-11.44.22:723][350]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 9:44:22 PM)
+[2017.03.25-11.44.22:759][350]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-11.44.23:452][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.692565s)
+[2017.03.25-11.44.23:526][350]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-11.44.23:575][350]LogPlayLevel: PIE: World Init took: (0.122633s)
+[2017.03.25-11.44.23:583][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.832902s)
+[2017.03.25-11.44.24:651][350]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-11.44.24:959][350]LogInit: FAudioDevice initialized.
+[2017.03.25-11.44.25:222][350]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-11.44.25:336][350]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-04.44.25
+[2017.03.25-11.44.25:337][350]LogWorld: Bringing up level for play took: 0.042127
+[2017.03.25-11.44.25:898][350]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 3.716
+[2017.03.25-11.45.31:742][111]LogHttp:Warning: 000001A1BE2CC400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.25-11.45.31:742][111]LogHttp:Warning: 000001A1BE2CC400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.25-11.45.31:742][111]LogHttp:Warning: 000001A1BE2CC400: libcurl info message cache 1 (Closing connection 101)
+[2017.03.25-11.47.41:891][668]LogSavePackage: Save=1045.31ms
+[2017.03.25-11.47.41:891][668]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_Auto48BA3B2AA4A449662DAAD1BA3438B194F.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto4.umap'
+[2017.03.25-11.47.41:910][668]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto4.umap
+[2017.03.25-11.47.42:063][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 3.018
+[2017.03.25-11.47.42:063][668]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.018
+[2017.03.25-12.02.49:416][311]LogHotReload: New module detected: UE4Editor-BatteryCollector-6810.dll
+[2017.03.25-12.02.49:813][312]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-12.03.05:825][312]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-12.03.05:847][312]LogClass: Function IsActive is new.
+[2017.03.25-12.03.05:848][312]LogClass: Function SetActive is new.
+[2017.03.25-12.03.05:848][312]LogClass: Function WasCollected is new.
+[2017.03.25-12.03.05:848][312]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-12.03.06:564][312]LogHotReload: Re-instancing Pickup after hot-reload.
+[2017.03.25-12.03.15:639][312]LogHotReload: Re-instancing BatteryPickup after hot-reload.
+[2017.03.25-12.03.17:105][312]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.BP_Battery_2.PickupMesh is already used by StaticMeshComponent /Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.REINST_BP_Battery_C_0.PickupMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.25-12.03.17:355][312]LogHotReload: Re-instancing SpawnVol after hot-reload.
+[2017.03.25-12.03.17:397][312]LogUObjectGlobals:Warning: Guid referenced by BoxComponent /Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.SpawnVol_1.WhereToSpawn is already used by BoxComponent /Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.SpawnVol_4.WhereToSpawn, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.25-12.03.17:427][312]LogUObjectGlobals:Warning: Guid referenced by BoxComponent /Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.SpawnVol_3.WhereToSpawn is already used by BoxComponent /Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.SpawnVol_5.WhereToSpawn, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.25-12.03.19:349][312]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0287 seconds. Added 5 classes and 2 folders.
+[2017.03.25-12.03.19:353][312]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.03.25-12.03.22:388][312]LogContentBrowser: Native class hierarchy populated in 0.1281 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-12.03.22:522][312]Display: HotReload took 32.7s.
+[2017.03.25-12.15.23:912][458]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-12.15.51:340][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-12.15.56:512][458]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 10:15:53 PM)
+[2017.03.25-12.15.58:344][458]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-12.16.09:681][458]LogPlayLevel: PIE: StaticDuplicateObject took: (10.889300s)
+[2017.03.25-12.16.18:279][458]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-12.16.22:052][458]LogPlayLevel: PIE: World Init took: (12.278258s)
+[2017.03.25-12.16.24:653][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (26.654325s)
+[2017.03.25-12.17.05:733][458]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-12.17.06:316][458]LogInit: FAudioDevice initialized.
+[2017.03.25-12.17.07:586][458]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-12.17.08:644][458]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-05.17.08
+[2017.03.25-12.17.08:822][458]LogWorld: Bringing up level for play took: 0.589690
+[2017.03.25-12.17.12:505][458]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 84.299
+[2017.03.25-12.17.14:620][459]LogHotReload: New module detected: UE4Editor-BatteryCollector-5213.dll
+[2017.03.25-12.17.14:683][460]LogHotReload: Starting Hot-Reload from IDE
+[2017.03.25-12.17.21:591][460]LogClass: Could not find existing class BatteryCollectorCharacter in package /Script/BatteryCollector for HotReload, assuming new class
+[2017.03.25-12.17.21:877][460]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2017.03.25-12.17.23:017][460]LogHotReload: Re-instancing SpawnVol after hot-reload.
+[2017.03.25-12.17.23:434][460]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0030 seconds. Added 5 classes and 2 folders.
+[2017.03.25-12.17.23:456][460]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.03.25-12.17.24:268][460]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2253 classes and 461 folders.
+[2017.03.25-12.17.24:307][460]Display: HotReload took  9.6s.
+[2017.03.25-12.18.17:264][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-12.18.17:285][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-12.18.17:285][898]PIE: New page: PIE session: CollectionLevel (Mar 24, 2017, 10:18:17 PM)
+[2017.03.25-12.18.17:285][898]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2017.03.25-12.18.17:311][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025796s)
+[2017.03.25-12.18.17:312][898]LogAIModule: Creating AISystem for world CollectionLevel
+[2017.03.25-12.18.17:312][898]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2017.03.25-12.18.17:312][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.027261s)
+[2017.03.25-12.18.17:548][898]LogInit: XAudio2 using 'Headset Earphone (Logitech G933 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.25-12.18.17:574][898]LogInit: FAudioDevice initialized.
+[2017.03.25-12.18.17:623][898]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2017.03.25-12.18.17:626][898]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 0) at 2017.03.25-05.18.17
+[2017.03.25-12.18.17:627][898]LogWorld: Bringing up level for play took: 0.002119
+[2017.03.25-12.18.17:689][898]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.494
+[2017.03.25-12.19.05:586][500]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=394.25 Y=-396.48 Z=0.00 Location: X=3078.13 Y=-99.93 Z=29.25 Normal: X=-0.18 Y=-0.81 Z=0.55 PenetrationDepth:2.278 Actor:BP_Battery_C_19 Component:PickupMesh BoneName:None (0 other events since notify)
+[2017.03.25-12.19.26:956][902]LogSavePackage: Save=334.27ms
+[2017.03.25-12.19.26:956][902]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel4C64C5C34FB5495C8328C59D1601E152.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap'
+[2017.03.25-12.19.26:999][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel.umap
+[2017.03.25-12.19.27:311][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CollectionLevel_BuiltData" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset" SILENT=true
+[2017.03.25-12.19.29:120][902]LogSavePackage: Save=1543.78ms
+[2017.03.25-12.19.29:120][902]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/CollectionLevel_BuiltData02035EBD41467ED4CF9927A5B2A6DE40.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
+[2017.03.25-12.19.29:123][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset
+[2017.03.25-12.19.52:781][465]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.25-12.20.08:665][466]Cmd: QUIT_EDITOR
+[2017.03.25-12.20.18:289][466]LogExit: Preparing to exit.
+[2017.03.25-12.20.25:736][466]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/' was aborted.
+[2017.03.25-12.21.00:290][466]LogExit: Editor shut down
+[2017.03.25-12.21.01:470][466]LogExit: Transaction tracking system shut down
+[2017.03.25-12.21.51:078][466]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.25-12.21.51:108][466]LogExit: Object subsystem successfully closed.
+[2017.03.25-12.21.53:188][466]LogD3D11RHI: Shutdown
+[2017.03.25-12.21.53:196][466]LogD3D11RHI: CleanupD3DDevice
+[2017.03.25-12.22.02:562][466]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.25-12.22.07:766][466]LogModuleManager: Shutting down and abandoning module BatteryCollector (530)
+[2017.03.25-12.22.07:766][466]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (523)
+[2017.03.25-12.22.07:835][466]LogModuleManager: Shutting down and abandoning module TextureEditor (521)
+[2017.03.25-12.22.07:904][466]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (516)
+[2017.03.25-12.22.07:947][466]LogModuleManager: Shutting down and abandoning module BlueprintGraph (514)
+[2017.03.25-12.22.07:947][466]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (512)
+[2017.03.25-12.22.08:050][466]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.03.25-12.22.08:079][466]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (504)
+[2017.03.25-12.22.08:104][466]LogModuleManager: Shutting down and abandoning module NewLevelDialog (502)
+[2017.03.25-12.22.08:132][466]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.03.25-12.22.08:157][466]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.03.25-12.22.08:225][466]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.03.25-12.22.08:225][466]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.03.25-12.22.08:523][466]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.25-12.22.09:992][466]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.03.25-12.22.09:992][466]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.03.25-12.22.10:009][466]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.03.25-12.22.10:102][466]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Collections/' was aborted.
+[2017.03.25-12.22.10:102][466]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/Developers/Liam/Collections/' was aborted.
+[2017.03.25-12.22.10:102][466]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Saved/Collections/' was aborted.
+[2017.03.25-12.22.10:102][466]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.03.25-12.22.10:299][466]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.03.25-12.22.10:299][466]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.03.25-12.22.10:777][466]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.03.25-12.22.10:777][466]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.03.25-12.22.10:777][466]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.03.25-12.22.10:777][466]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.03.25-12.22.10:777][466]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.03.25-12.22.11:007][466]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.03.25-12.22.11:129][466]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.03.25-12.22.11:129][466]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.03.25-12.22.11:223][466]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.03.25-12.22.11:368][466]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.03.25-12.22.11:815][466]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.03.25-12.22.11:850][466]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.03.25-12.22.11:850][466]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.03.25-12.22.11:850][466]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.03.25-12.22.11:901][466]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.03.25-12.22.11:901][466]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.03.25-12.22.11:901][466]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.03.25-12.22.11:901][466]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.03.25-12.22.11:947][466]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.03.25-12.22.11:947][466]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.03.25-12.22.11:947][466]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.03.25-12.22.11:947][466]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.03.25-12.22.11:975][466]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.03.25-12.22.12:175][466]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.03.25-12.22.12:175][466]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.03.25-12.22.12:199][466]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.03.25-12.22.12:199][466]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.03.25-12.22.12:199][466]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.03.25-12.22.12:592][466]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.03.25-12.22.12:699][466]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.03.25-12.22.12:742][466]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.03.25-12.22.12:785][466]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.03.25-12.22.12:890][466]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.03.25-12.22.12:890][466]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.03.25-12.22.12:980][466]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.03.25-12.22.13:435][466]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.03.25-12.22.13:435][466]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.03.25-12.22.13:435][466]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.03.25-12.22.13:513][466]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.03.25-12.22.13:698][466]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.03.25-12.22.13:734][466]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.03.25-12.22.13:753][466]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.03.25-12.22.13:805][466]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.03.25-12.22.13:847][466]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.03.25-12.22.14:023][466]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.03.25-12.22.14:174][466]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.03.25-12.22.14:174][466]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.03.25-12.22.14:240][466]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.03.25-12.22.14:296][466]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.03.25-12.22.14:296][466]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.03.25-12.22.14:308][466]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.03.25-12.22.14:308][466]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.03.25-12.22.14:408][466]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.03.25-12.22.14:525][466]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.03.25-12.22.14:556][466]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.03.25-12.22.14:657][466]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.03.25-12.22.14:798][466]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.03.25-12.22.14:876][466]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.03.25-12.22.14:930][466]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.03.25-12.22.15:002][466]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.03.25-12.22.15:045][466]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.03.25-12.22.15:177][466]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.03.25-12.22.15:274][466]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.03.25-12.22.15:468][466]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.03.25-12.22.15:468][466]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.03.25-12.22.15:590][466]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.03.25-12.22.15:614][466]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.03.25-12.22.15:805][466]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.03.25-12.22.15:805][466]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.03.25-12.22.16:026][466]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.03.25-12.22.16:233][466]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.03.25-12.22.16:427][466]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.03.25-12.22.16:453][466]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.03.25-12.22.16:514][466]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.03.25-12.22.16:699][466]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.03.25-12.22.16:773][466]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.03.25-12.22.16:796][466]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.03.25-12.22.16:888][466]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.03.25-12.22.16:888][466]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.03.25-12.22.16:940][466]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.03.25-12.22.16:940][466]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.03.25-12.22.16:940][466]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.03.25-12.22.16:940][466]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.03.25-12.22.16:940][466]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.03.25-12.22.17:043][466]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.03.25-12.22.17:067][466]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.03.25-12.22.17:093][466]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.03.25-12.22.17:325][466]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.03.25-12.22.17:482][466]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.03.25-12.22.17:482][466]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.03.25-12.22.17:482][466]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.03.25-12.22.17:482][466]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.03.25-12.22.17:505][466]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.03.25-12.22.17:505][466]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.03.25-12.22.17:505][466]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.03.25-12.22.17:505][466]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.03.25-12.22.17:505][466]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.03.25-12.22.17:530][466]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.03.25-12.22.17:530][466]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.03.25-12.22.17:784][466]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.03.25-12.22.17:785][466]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.03.25-12.22.17:813][466]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.03.25-12.22.17:869][466]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.03.25-12.22.17:869][466]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.03.25-12.22.17:869][466]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.03.25-12.22.17:869][466]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.03.25-12.22.17:869][466]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.03.25-12.22.17:869][466]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.03.25-12.22.18:096][466]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.03.25-12.22.18:254][466]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.03.25-12.22.18:496][466]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.03.25-12.22.18:497][466]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.03.25-12.22.18:519][466]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.03.25-12.22.18:519][466]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.03.25-12.22.18:619][466]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.03.25-12.22.18:798][466]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.03.25-12.22.18:977][466]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.03.25-12.22.19:145][466]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.03.25-12.22.19:166][466]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.03.25-12.22.19:166][466]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.03.25-12.22.19:166][466]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.03.25-12.22.19:381][466]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.03.25-12.22.19:406][466]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.03.25-12.22.19:605][466]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.03.25-12.22.19:696][466]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.03.25-12.22.19:696][466]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.03.25-12.22.19:696][466]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/BatteryCollector/Binaries/Win64' was aborted.
+[2017.03.25-12.22.19:721][466]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.03.25-12.22.19:744][466]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.03.25-12.22.19:767][466]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.03.25-12.22.19:767][466]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.03.25-12.22.19:767][466]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.03.25-12.22.19:868][466]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.03.25-12.22.19:968][466]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.03.25-12.22.20:093][466]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.03.25-12.22.20:163][466]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.03.25-12.22.20:163][466]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.03.25-12.22.20:163][466]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.03.25-12.22.20:205][466]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.03.25-12.22.20:305][466]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.03.25-12.22.20:447][466]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.03.25-12.22.20:447][466]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.03.25-12.22.20:447][466]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.03.25-12.22.20:520][466]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.03.25-12.22.20:584][466]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.03.25-12.22.20:584][466]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.03.25-12.22.20:714][466]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.03.25-12.22.20:733][466]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.03.25-12.22.20:854][466]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.03.25-12.22.20:978][466]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.03.25-12.22.21:159][466]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.03.25-12.22.21:335][466]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.03.25-12.22.21:738][466]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.03.25-12.22.21:803][466]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.03.25-12.22.21:901][466]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.03.25-12.22.21:969][466]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.03.25-12.22.21:969][466]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.03.25-12.22.22:474][466]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.03.25-12.22.22:519][466]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.03.25-12.22.22:519][466]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.03.25-12.22.22:519][466]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.03.25-12.22.22:519][466]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.03.25-12.22.22:519][466]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.03.25-12.22.24:028][466]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.25-12.22.24:028][466]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Liam/Documents/Unreal Projects/BatteryCollector/Content/' was aborted.
+[2017.03.25-12.22.24:028][466]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.25-12.22.24:099][466]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.03.25-12.22.24:118][466]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.03.25-12.22.24:118][466]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.03.25-12.22.24:141][466]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.03.25-12.22.24:314][466]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.03.25-12.22.24:373][466]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.03.25-12.22.24:401][466]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.03.25-12.22.24:405][466]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.03.25-12.22.24:460][466]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.03.25-12.22.24:658][466]LogDerivedDataCache: Shutdown
+[2017.03.25-12.22.24:658][466]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.03.25-12.22.24:719][466]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.03.25-12.22.24:794][466]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.03.25-12.22.24:883][466]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.03.25-12.22.24:885][466]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.03.25-12.22.24:955][466]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.03.25-12.22.24:972][466]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.03.25-12.22.24:985][466]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.03.25-12.22.24:985][466]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.03.25-12.22.25:331][466]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.03.25-12.22.25:351][466]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.03.25-12.22.25:351][466]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.03.25-12.22.25:371][466]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.03.25-12.22.25:404][466]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.03.25-12.22.25:404][466]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.03.25-12.22.25:404][466]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.03.25-12.22.25:448][466]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.03.25-12.22.25:462][466]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.03.25-12.22.25:478][466]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.03.25-12.22.25:490][466]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.03.25-12.22.25:514][466]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.03.25-12.22.25:514][466]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.03.25-12.22.25:514][466]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.03.25-12.22.25:619][466]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.03.25-12.22.25:644][466]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.03.25-12.22.25:644][466]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.03.25-12.22.25:671][466]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.03.25-12.22.25:696][466]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.03.25-12.22.25:721][466]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.03.25-12.22.25:746][466]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.03.25-12.22.25:748][466]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.03.25-12.22.25:754][466]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.03.25-12.22.25:754][466]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.03.25-12.22.25:807][466]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.03.25-12.22.25:839][466]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.03.25-12.22.25:876][466]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.03.25-12.22.25:876][466]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.03.25-12.22.25:929][466]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.03.25-12.22.25:977][466]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.03.25-12.22.25:999][466]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.03.25-12.22.25:999][466]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.03.25-12.22.25:999][466]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.03.25-12.22.25:999][466]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.03.25-12.22.26:053][466]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.03.25-12.22.26:053][466]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.25-12.22.26:053][466]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.25-12.22.26:053][466]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.25-12.22.26:053][466]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.25-12.22.26:284][466]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.25-12.22.26:510][466]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.25-12.22.26:541][466]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.25-12.22.26:541][466]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0AA75A09-4407-49B1-D327-3CBE1E7A3F23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3c53aeb14f8381cf589af9a05a045162%7C191bcd9e71e141a7a207a951597e632a%7C6892023d-28ec-4f87-8958-26e7706dbce6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.25-12.22.26:693][466]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.25-12.22.27:048][466]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.25-12.22.27:097][466]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.25-12.22.27:097][466]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.25-12.22.27:127][466]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.25-12.22.27:151][466]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.25-12.22.28:206][466]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.25-12.22.28:238][466]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.25-12.22.28:238][466]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.25-12.22.28:242][466]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.25-12.22.28:242][466]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.25-12.22.28:242][466]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.25-12.22.28:242][466]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.25-12.22.28:284][466]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.25-12.22.28:310][466]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.25-12.22.28:357][466]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.25-12.22.28:671][466]LogExit: Exiting.
+[2017.03.25-12.22.29:096][466]Log file closed, 03/25/17 05:22:29
